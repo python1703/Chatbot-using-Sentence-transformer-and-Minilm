@@ -1,31 +1,40 @@
 import pandas as pd
-from sentence_transformers import SentenceTransformer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
-from sentence_transformers.util import cos_sim
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Load the fine-tuned model and tokenizer
+model_name = 'fine_tuned_gpt2'
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name)
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model.to(device)
 
 # Load the preprocessed data
 df = pd.read_csv('cleaned_FAQ.csv')
 
-# Load the fine-tuned model
-model = SentenceTransformer('fine_tuned_model')
+# Prepare TF-IDF Vectorizer
+vectorizer = TfidfVectorizer()
+tfidf_matrix = vectorizer.fit_transform(df['Answer'])
 
-# Encode the questions
-question_embeddings = model.encode(df['Question'].tolist(), convert_to_tensor=True)
+def retrieve_relevant_answer(query, df, vectorizer, tfidf_matrix):
+    query_tfidf = vectorizer.transform([query])
+    similarities = cosine_similarity(query_tfidf, tfidf_matrix)
+    best_match_index = similarities.argmax()
+    return df.iloc[best_match_index]['Answer']
 
-def find_most_similar_question(user_question, question_embeddings, df, model):
-    try:
-        # Encode the user's question
-        user_question_embedding = model.encode(user_question, convert_to_tensor=True)
-        
-        # Compute cosine similarities
-        similarities = cos_sim(user_question_embedding, question_embeddings)[0]
-        
-        # Find the index of the most similar question
-        most_similar_idx = torch.argmax(similarities).item()
-        
-        return df.iloc[most_similar_idx]['Answer'], similarities[most_similar_idx].item()
-    except Exception as e:
-        return str(e), 0.0
+def generate_answer(question, model, tokenizer, max_length=100):
+    retrieved_answer = retrieve_relevant_answer(question, df, vectorizer, tfidf_matrix)
+    input_text = f"Question: {question}\nAnswer: {retrieved_answer}"
+    input_ids = tokenizer.encode(input_text, return_tensors='pt').to(device)
+
+    # Generate the answer
+    output_ids = model.generate(input_ids, max_length=max_length, num_return_sequences=1, no_repeat_ngram_size=2, pad_token_id=tokenizer.eos_token_id)
+
+    # Decode the output to get the answer
+    output_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+    return output_text.split("Answer:")[1].strip()
 
 def chatbot():
     print("Welcome to the HRM Chatbot. Let's Lead.")
@@ -35,13 +44,9 @@ def chatbot():
             print("Hope you don't face any query further")
             break
         
-        # Find the most similar question and answer
-        answer, similarity = find_most_similar_question(user_input, question_embeddings, df, model)
-        
-        if similarity < 0.5:  # Threshold for similarity
-            print("Solution: I'm not sure about the answer to that. Can you please rephrase?")
-        else:
-            print(f"Solution: {answer}")
+        # Generate the answer using the fine-tuned model
+        answer = generate_answer(user_input, model, tokenizer)
+        print(f"Solution: {answer}")
 
 if __name__ == "__main__":
     chatbot()

@@ -1,0 +1,946 @@
+The Leave Master page allows administrators to configure and manage different types of leaves available to employees
+Leave Abbreviation is a short form or code used to represent a particular leave type for quick reference
+The File Id is a unique identifier for each leave type ensuring easy tracking and management
+The Leave Color allows you to assign a specific color to each leave type making it visually distinguishable in calendars or charts
+Attaching an image can provide a visual representation or icon for the leave type enhancing user experience
+Click on the specific leave type and edit the Leave Name field to modify it
+This ensures that certain criteria or conditions are met before the leave can be approved or processed
+It might be a repetition Please check if both have the same functionalities or consult the software documentation
+The software allows for multiple leave types
+Yes but ensure that no pending or approved leaves are associated with that type before deletion
+Accrual rates might be set in another section of the software Check the Leave Configuration or related modules
+Yes using the Leave Color feature you can assign unique colors to each leave type
+Common formats like JPG PNG and GIF are supported but check the software documentation for specifics
+By setting the Validation is mandatory option you can enforce approval processes
+This depends on HRMantra capabilities Check the importexport options or consult the software documentation
+Simply edit the number in the Preference Order field for each leave type
+Yes you can set a unique abbreviation for each leave type
+The software might order them alphabetically or based on creation date Its best to assign unique preference numbers
+Only the administrators or HR personnel have access but permissions can vary based on roles
+There should be an Add or Create New button on the Leave Master page
+Its a unique identifier ensuring that each leave type is distinct and easily trackable
+Click on the color box or picker next to the leave type and choose a new color
+Click on the Attach Leave Image icon or link and the image should be displayed
+Document the error take a screenshot if possible and contact your software support team
+Check the softwares export functionalities found in settings or admin sections
+Check the Leave Structure page
+Click on the specific leave type and edit the Leave Abbreviation field
+You can use the Leave Name or Leave Abbreviation to indicate this or there might be a specific setting in the software
+Check the leave structure page
+Check the Leave Structure page
+Yes Check the leave structure page
+Consult the software documentation user manual or contact the support team
+Click on the  on the top right corner of every page
+The Preference Order determines the sequence in which leave types appear in listings A lower number indicates a higher preference
+The Leave Year Starts From date determines when employees leave balances reset or accrue based on the organizations policy
+This feature allows the admin to restrict employees from cancelling leaves once they have been approved
+Leave Options provides you with various settings to customize the leave process as per the organizations policy Navigate to the feature and choose the preferred settings
+Yes using the Leave Year Starts From option you can define the start date for the leave year in your organization
+Select Employee Group allows you to apply specific leave settings to a particular group of employees Navigate to this option and choose the desired group
+Yes Leave Options can be found in multiple places offering varied functionalities Ensure you are configuring the correct option based on your requirements
+The Validation Is Mandatory feature decides this If turned on all leave applications must go through a validation process before approval
+If the Prohibit leave application on the day the employee is present feature is enabled employees cannot apply for leave on days they mark their attendance
+Taking attendance data from the Payroll Module helps in decoding the attendance field value ensuring seamless integration between attendance and leave modules
+By prohibiting cancellation of approved leaves organizations can maintain better roster management and avoid lastminute changes
+No the Leave Year Starts From feature allows you to define a single start date which will determine the leave year for the organization
+Navigate to Leave Year Starts From and select the desired start date from the calendar dropdown
+Yes under Select Employee Group you can choose from existing groups or create new ones as per your requirements
+Yes Leave Options provides flexibility to adjust settings Navigate through the options to make custom changes
+If turned off leave applications might get autoapproved or wont need a validation process
+It depends on the organizations policy If Prohibit leave application on the day the employee is present is enabled exceptions would need manual intervention
+It ensures that theres no discrepancy between attendance and leaves providing a holistic view of an employees presence and absence
+Yes by configuring the Prohibit cancellation of approved leaves and Select Employee Group settings you can define exceptions
+It provides flexibility and control over leave policies ensuring that both employee and organizational needs are met
+No the Leave Year Starts From is a global setting applicable for all employees
+Navigate to the employees profile or check under Select Employee Group to see group assignments
+You would need to customize the leave application process or integrate thirdparty tools for additional validation
+It depends on the permissions set by the admin  Leave Options are adminlevel settings
+It ensures that employees plan their leaves in advance and reduces lastminute leave requests
+The current setting integrates with the Payroll Module For other modules You need custom integration
+Yes with the right admin permissions manual interventions can override this setting
+The default may vary  organizations set it to January 1st or the fiscal year start Check your current setting in the module
+As often as required However frequent changes might confuse employees Its recommended to maintain consistency
+The immediate supervisor or HR validates the leave but it depends on the organizational hierarchy set in HRMantra
+Through the attendance data either entered manually imported or integrated from other modules like Payroll
+Its highly accurate as it pulls data directly from the Payroll Module ensuring no discrepancies
+ HRMantras have notification features Check under Leave Options or related settings for notification configurations
+Yes HRMantras offer data export functionality
+Yes using the Select Employee Group feature you can apply specific settings to different groups
+Holidays are managed in a separate section but they integrate with the leave module to avoid discrepancies
+This depends on the Leave Options settings If allowed employees can apply for half or partialday leaves
+Navigate to the employees profile and check the leave section or history tab This might vary based on the software layout
+Any discrepancies in the Payroll Module will reflect in the Leave Module Its crucial to ensure accurate data in both modules
+You be able to set multiple validators under the Validation Is Mandatory or similar settings
+Consult the software documentation seek support from the software vendor or check any available logs for errors
+Under Select Employee Group There is an option to create or add new groups If not check the main settings or documentation
+HRMantra systems offer automation based on criteria Check under Leave Options or related settings for automation features
+The integration is   set up during the initial configuration If changes are needed navigate to settings or consult documentation
+Yes employees have access to their leave balances history and other related details in their profiles
+HRMantra systems offer a Reset to Default option If not You need to manually revert changes or seek support
+Navigate to the Leave Options page and check the status of the Validation Is Mandatory setting
+This depends on the integration settings It could be realtime daily weekly monthly or based on a custom schedule
+Check the help section in your HRMantra or contact the software vendors support team for assistance
+Yes weekly offs are included as part of leave if Condition is met
+Yes a fitness certificate is required for certain leaves as per Policy
+Yes employee contact details are required for leave approval if Condition is set
+Accumulated leave is calculated based on Formula
+Yes leaves can end before a weekly off day if Condition is met
+Yes leave can be credited only on public holidays or weekly offs if Condition is met
+Yes you can start or end leave on a public holiday date if Condition is met
+No employees cannot apply for leave credit if Condition is set
+Leave entitlement is determined based on Formula when days exceed the limit
+Leave entitlement is governed by Rule
+Unused leaves are lapsed at the yearend if Condition is met
+Leave types are named based on Naming Convention
+Yes marital status may affect leave eligibility as per Policy
+The maximum number of leave encashment applications allowed in a year is determined by Formula
+The minimum duration for taking leave is determined by Formula
+The suffix rule for weekly offs is Rule
+Yes employees can take leave with a negative balance if Condition is met
+Yes you can start a new leave before the previous one ends if Condition is met
+Leave credit is valid for Number of Days based on Formula
+The maximum number of leave applications allowed in a year is determined by Formula
+The minimum encashable days at a time is determined by Formula
+Yes there are minimum and maximum limits for leave duration
+Leave duration is indicated using the data type number or decimal
+The prefix rule for public holidays is Rule
+Yes there are prefix rules for leave types such as Rule
+Leave duration is rounded off based on Rounding Method
+Yes leaves can end before a public holiday if Condition is met
+Leave is displayed in workflow processes based on Formula
+Leave configuration becomes effective on Effective Date
+Yes employees can encash their unused leaves if Condition is met
+The value of a fullday leave is Value
+Future leave can be applied from the present date up to Number of Days based on Formula
+The value of a halfday leave is Value
+Yes leave can be adjusted during the notice period if Condition is met
+The value of leave is determined based on Value Calculation
+The total leave entitlement for a year is calculated based on Formula
+The next step for configuring leave settings is Next Step
+Yes a different leave application can be applied immediately after the other leaves end
+Leave entitlement is calculated using the Calculation Method
+Yes leave is displayed on employee pay slips if Condition is met
+No unused leaves are not carried forward if Condition is set
+Some leaves may not be carried forward as per Policy
+Leave entitlement is calculated up to a certain date based on Formula
+Yes excess leaves availed can be recovered from future leaves if Condition is met
+Leave should be approved within Number of Days as per Formula
+The suffix rule for leave types is Rule
+Yes there are specific rules for certain leave types such as Rule
+Leave can be applied for up to Number of Days in advance based on Formula
+Yes providing a reason is mandatory when applying for leave if Condition is set
+Yes there are sandwiching rules for leave as per Policy
+Supporting documents such as Document Types are required for leave approval
+To indicates the end date of leave in the configuration
+Clicking Ok confirms and saves the leave configuration settings
+Employees can apply for leave credit again within Number of Days as per Formula
+Yes leave can start after a public holiday if Condition is met
+Yes leave can be applied after a selected leave type if Condition is met
+Yes if leave is availed between a weekly off and a public holiday they are included as part of leave
+Yes leave configuration can be applied to Employee Groups
+Yes leave may affect an employees pay based on Pay Calculation
+Yes deductions are applied if leave is less than a full day based on Formula
+The following public holidays are included as part of leave List of Holidays
+Yes public holidays are considered part of leave if Condition is met
+Leave is lapsed based on the leave period cycle as defined in Policy
+The prefix rule for leave types is Rule
+The maximum number of leave applications allowed in a lifetime is determined by Formula
+The maximum encashable days at a time is determined by Formula
+The suffix rule for public holidays is Rule
+Yes there may be a preferred order for leave approval as per Policy
+The required supporting documents for leave are determined by Formula
+The leave structure includes various settings and rules for managing leave
+Yes leave can start after a weekly off if Condition is met
+Yes leave configuration can be applied to all employee groups if Condition is met
+Leave crediting is governed by Credit Rules
+No employees cannot apply for leave after the resignation date if Condition is set
+Leave entitlement may be based on factors such as Criteria
+Public holidays are included as part of leave if Condition is met
+Yes the leave configuration is currently ActiveInactive
+Leave lapsation is calculated based on Formula
+The maximum leave carryforward is determined by Formula
+The maximum duration for taking leave is determined by Formula
+The maximum number of leaves allowed in a month is determined by Formula
+The maximum number of leave days allowed in a month is determined by Formula
+Yes multiple conditions may be considered using the logical operator OR
+Yes the day of the week is considered for leave calculation based on Condition
+The prefix rule for weekly offs is Rule
+Yes there are sandwiching rules for leave between weekly offs as per Policy
+Yes leave can be applied before another leave ends if Condition is met
+Yes weekly offs can be considered as the start or end date of leave if Condition is met
+Yes antisandwiching rules apply if leave is found between weekly offs and public holidays
+Future leave can be applied Number of Days in advance based on Formula
+Yes an employees gender may affect leave eligibility as per Policy
+The following weekly offs are included as part of leave List of Weekly Offs
+Yes both are included if Condition is met
+An invalid pattern indicates that the leave configuration is incorrect or incomplete
+The maximum number of leave days allowed in a year is determined by Formula
+The rule for sandwiching public holidays in leave is Rule
+Yes the expected delivery date is displayed for maternity leave
+Yes validation is mandatory when applying for leave if Condition is set
+Leave can be specified either for past days leaves to be applied or before days for future leaves
+Yes you can navigate to the previous step in leave configuration using the Previous option
+Yes leave credit can be applied only when employees work on public holidays and weekly offs if Condition is met
+Yes leave can be applied for the whole week if Condition is met
+Yes sandwiching rules apply to halfday leave with halfday working as per Policy
+Yes leave configurations can be specific to Employee Groups
+Yes there may be extra deductions for certain types of leave as per Policy
+Yes deductions are applied for halfday leaves shorter than Formula
+Yes weekly offs can be included as part of leave duration if Condition is met
+The leave structure includes various settings and rules for managing leave continued
+The data type number or decimal is used to indicate the number of leaves
+The suffix rule for leave types is Rule continued
+Yes use the Employee Name feature to select the employee and make the necessary adjustments
+It allows administrators to manually increase or decrease an employees leave balance
+Navigate to the Leave Balance  History feature to view a comprehensive history of an employees leave transactions
+This means that either the leave type hasnt been defined or the leave structure for the employee is missing
+Adjustment days cannot be zero ensures that a meaningful adjustment is being made whether its adding or reducing leave days
+Yes Validation Is Mandatory to ensure that the adjustments are accurate and to prevent any errors
+Please verify if the leave master or leave structure is defined Also ensure the employees personal details are accurate
+Yes using the Adjustment Date feature you can specify a past date for which the leave adjustment should be applicable
+Use the Employee Name field to select the employee for whom you are making the adjustment
+Yes by selecting All Employees you can adjust leave for everyone at once
+Use the Leave Name dropdown to select the type of leave youre adjusting
+It lets you make manual adjustments to an employees leave balance whether adding or reducing days
+Yes using the Leave Year feature you can specify the year for which the leave adjustment should be applicable
+Use the Reduce Balance feature to manually decrease an employees leave days
+Yes the Remarks field allows you to add any notes or comments related to the leave adjustment
+Use the Add balance feature to manually increase an employees leave days
+Yes the Adjusted By Employee Name will display the name of the person who made the adjustment
+Use the Adjustment Days field to input the number of days you wish to add or reduce
+Yes use the Remarks field to add a general note or comment that will apply to the adjustment for all employees
+Always validate the adjustments using the Validation Is Mandatory feature before finalizing
+ to undo an adjustment youd have to make a counteradjustment Check HRMantra specific functionalities for details
+Yes the Leave Balance  History feature provides a detailed log of all past leave transactions and adjustments
+Ensure that the leave master or leave structure is defined and that employee personal details like gender and marital status are correct
+The specified adjustment will be applied to the leave balance of every employee in HRMantra
+Depending on your software settings employees may or may not be able to view the remarks Check HRMantra documentation
+ only administrators or HR personnel can adjust leave balances Employees can request adjustments if needed
+After validation and saving the software should provide a confirmation message or update the Leave Balance  History accordingly
+It could be due to manual adjustments leave taken but not recorded or errors in the leave structure Always validate before finalizing
+there might be an export feature in the Leave Balance  History section Check HRMantra documentation
+Validation ensures accuracy prevents errors and maintains the integrity of leave data in HRMantra
+ you shouldnt adjust leave for exemployees If needed consult with HR or use the Employee Name feature to select the exemployee
+This depends on HRMantra capabilities Check HRMantra documentation or settings for autoadjustment features
+Use the Add  Reduce balance feature to adjust accordingly Consult with HR for policies regarding negative leave balances
+The All Employees feature adjusts for everyone For specific teams youd need to adjust individually or check HRMantra supports group adjustments
+Yes the Leave Balance  History should provide a detailed log of all adjustments made including who made them and when
+Always validate adjustments If errors persist consult HRMantra documentation or support team
+Consult with HR or the employee to determine the correct Leave Name before making adjustments
+Depending on software settings and permissions managers might be able to adjust leave for their direct reports
+Make a counteradjustment to correct the error then adjust the correct leave type Always validate adjustments before finalizing
+This depends on HRMantra capabilities Check HRMantra documentation or settings for scheduled adjustment features
+Use the Employee Name feature to select the employee then adjust based on their unique leave structure Validate before finalizing
+ employees can raise concerns or requests regarding their leave balance The resolution process would be as per HR policies
+Regular validation especially after manual adjustments ensures accuracy and data integrity
+The Leave Balance  History should allow you to filter and view adjustments made during a specified timeframe
+Use the Employee Name feature to select the employee then adjust based on their working hours or structure Validate before finalizing
+Consult HRMantra documentation or contact the support team for assistance
+This depends on HRMantra capabilities Check HRMantra documentation for bulk adjustment features or integrations
+Consult with HR for policies regarding such adjustments Use the Employee Name feature to select the employee and adjust accordingly
+Yes software allows you to set permissions Only authorized personnel like HR or managers should have adjustment rights
+Always validate adjustments ensure youre adjusting the correct leave type for the correct employee and consult with HR when in doubt
+This feature allows you to undo the yearend process for leave balances effectively reverting any changes made during that process
+The Stop feature allows you to halt any ongoing processes related to leave balances Simply click on Stop to initiate
+To date refers to the end date for which you want to view or calculate the leave balances
+This represents the total number of leaves an employee is entitled to in a given year
+This is the number of leaves an employee has at the beginning of a year or period
+Youll see a notification or status change indicating that the process has been successfully reversed and updated
+Its calculated as ABCEF where each letter corresponds to a specific leave parameter
+It represents the leaves from the previous period that are carried forward to the current period
+Leaves that arent used within their validity period will lapse This feature shows the number of such leaves
+Previous Year Balance refers to the total leaves at the end of the last year while opening balance is the starting count for the current year
+Once the yearend process is finalized it cannot be altered to maintain data integrity
+These dates are essential for calculating leave entitlements and other related functionalities
+It allows you to view specific details or records related to leave balances
+Its the start date from which leave calculations or records are considered for any given period
+These are specific parameters or categories used in the leave calculation formula
+Its a process that finalizes leave records at the end of the year including carry forwards and lapses
+It refers to the specific date for which youre viewing or calculating the leave balance
+It refers to the leave balance at the end of any given period not just the year
+It represents the total leaves an employee is entitled to from the start of the year up to the current date
+Some organizations have genderspecific leave policies This feature ensures accurate leave calculations based on gender
+Its the date when an employee joined a specific group or department which might affect their leave entitlements
+Leave entitlements often depend on the duration of employment making the joining date crucial for accurate calculations
+It indicates that the leave data is being processed You can check the progress by clicking on process status
+Its updated once a year but this might vary based on organizational policies
+This message appears when an invalid or inappropriate date is entered Ensure youre entering dates in the correct format and range
+It indicates that theres no ongoing process that can be halted using the Stop feature
+Its a confirmation message to ensure you want to continue with the selected action especially if its irreversible
+Some processes once initiated cannot be run simultaneously or repeatedly until theyre completed or stopped
+Click on this option to start the yearend leave calculations and finalizations
+Its the end date up to which leave calculations or records are considered for any given period
+Its the total leave balance on a specific date considering all additions and deductions
+It includes all leaves taken by an employee including those that are yet to be approved
+It refers to any changes made to the leave balance that werent a result of the standard leavetaking process
+It initiates a specific process or calculation for all employees in HRMantra simultaneously
+Its the most recent date an employee worked which can affect leave calculations especially for those whove left the organization
+It indicates that theres no history of reversing the yearend process for the selected period or employee
+Its the specific type or category of leave eg Sick Leave Vacation etc
+Its when all leave records for the year are finalized including calculations of carry forwards and lapses
+Its similar but might have specific nuances based on HRMantra functionality
+This message appears when youre trying to initiate a process that requires at least one employee to be selected but none have been chosen
+It indicates that an ongoing process has been halted successfully upon your request
+Its the date when an employees probation ends and might affect their leave entitlements
+Its the start date from which you want to view or calculate the leave balances
+It shows the number of leaves that will lapse at the end of the year if not used
+Some organizations have leave policies based on marital status eg marriage leave or paternity leave
+The As on date should always be after the Joining Date to ensure accurate leave calculations
+Click on process status to see the realtime progress of the data processing
+To maintain data integrity once the yearend process is finalized it cannot be altered
+A date that falls within the permissible range and is in the correct format is considered valid
+If you intended to stop a process ensure that the process was running in the first place or check if it has already completed
+Track Status allows you to monitor the current state of your leave credit application in realtime
+The All Employees feature displays a list of all employees in the organization allowing you to view their leave credit status
+Applied Days refers to the number of days an employee has requested for leave credit
+Credited Date is when the leave was actually credited to the employees account while Application Date is when the employee applied for leave credit
+Yes the Credit Application History shows a log of all past leave credit applications made by the employee
+It checks if the leave credit application adheres to the organizations leave policies and rules
+The Leave Credited feature displays the amount of leave that has been added to the employees account
+Pending with shows the person or department currently reviewing your leave credit application
+Select All allows you to select all entries or records displayed on the page at once useful for bulk actions
+Yes the Approver History provides a log of all individuals who have approved or reviewed your application
+Use the Leave Remark feature to add any additional notes or comments to your application
+Quick Approval allows managers or HR to rapidly approve leave credit requests without navigating through multiple pages
+Session Name indicates the specific session or time period for which the leave credit is being applied
+SP CASE is a special case scenario for leave credit which might be outside the regular leave policies
+Escalation Remark provides notes or reasons when a leave credit application is escalated to higher authorities for review
+The Escalation Status feature indicates whether an application has been escalated and its current state in the escalation process
+Send To allows you to forward or redirect the leave credit application to another individual or department for review or action
+Sr No is the serial number or unique identifier for each leave credit application helping in easy tracking
+If you see the message The application is in escalation process so it cannot be modified now it means your application is under review at a higher level and cannot be edited
+The Apply button is used to submit a new leave credit application or to save changes made to an existing one
+Use the View History feature to see a log of all your past leave credit applications and their respective outcomes
+Leave Abbreviation is a short form for the type of leave while Leave Type gives a detailed description eg Paid Leave Sick Leave etc
+Credited Days refers to the number of full days of leave credited while Credited Hours gives the leave credit in hours useful for partialday credits
+Part Of Day indicates if the leave credit is for a full day or just a portion of the day
+The Pending Application feature shows a list of all leave credit applications that are awaiting approval or action
+Credit Days displays the total number of days for which leave has been credited to the employees account
+Validating an entry using Is validate Entry ensures that the application aligns with organizational rules and avoids potential errors
+Providing a Reason helps the approver understand the context of the leave credit request and aids in faster processing
+This page allows employees to apply for leave credits and for managers or HR to review approve or decline such applications
+This message indicates that escalation settings or rules have not been defined for the current leave credit application
+This prompt indicates that the master settings or foundational rules for leave credits specific to employee groups need to be set up or defined
+Yes use the Application Remarks feature to add any supplementary notes or comments
+Credit Leave Date is the date when the leave was officially added or credited to the employees account
+Yes the Comment feature allows you to add feedback or notes on any leave credit application
+Use the Status feature to view the current state eg Approved Declined Pending of a leave credit application
+Leave Credit Approval refers to the process where a manager or HR reviews and approves or declines a leave credit application
+Yes the Leave Credit Manual Entry feature allows HR or managers to manually add leave credits to an employees account
+Use the Select feature to select multiple applications and then utilize the Quick Approval option for rapid approval
+Escalation Status shows whether an application has been escalated for higher review and its current state in that process
+Leave Remark is a feature where employees or managers can add notes or comments about the leave credit application
+Validating entries using Is validate Entry ensures data accuracy and alignment with organizational leave policies
+Application Status displays the current state of a leave credit application eg Approved Pending Declined
+Leave Abbreviation is a shorthand or acronym for the type of leave being credited eg PL for Paid Leave
+Yes the Credited Hours feature displays the total hours of leave credited to an employees account
+If an employee requests leave credit for just a few hours or half a day its considered as Part Of Day
+Use the Pending Application feature to view all applications that are yet to be approved or declined
+This message appears when an application has been escalated for higher review and any modifications are locked during this process
+Use the View History option to see a detailed log of actions and statuses for a particular leave credit application
+Leave Type provides details about the kind of leave being requested or credited helping in proper categorization and processing
+Credit Days displays the total number of days for which leave has been credited to an employees account
+You can calculate leave encashment using the Calculate feature within the application
+To apply click on Apply Now and follow the application process
+Use the Balance as on date feature to view your leave balance as of a specific date
+You can use the Calculate As Per Month feature for monthly leave encashment calculations
+It helps you carry forward unused leave from the previous period
+Check the Days To Encash feature for this information
+These dates determine your eligibility for leave encashment
+Leave Used and Leave Used Including Pending Leave provide this information
+You can check the Status to track your applications progress
+It represents your available leaves as of a specific date after deductions
+Look for Closing Balance Previous period to view this data
+You can add remarks or notes related to your leave encashment
+Use the Entitlement Till Date feature to see your entitlement information
+It validates your entry against company leave policies
+It provides abbreviations for different leave types
+You can use Manually Adjusted C to make manual adjustments to your leave balance
+Check Paid In Period for information on paid leave periods
+You can specify the recipient in the Send To field
+Its used to determine leave eligibility in case of employee separation
+Use the Encashment Leave Type field for this purpose
+Look for Pending Application to see pending applications
+Use Select All to select all entries at once
+You can find this information in Self Status And Remark and Approver Status and Remark
+These fields show the leaves eligible for encashment and the corresponding amount
+Use Entitled Till Date and specify the date
+Input the date in the From Date field
+Leaves Lapsed Incase of validity displays this information
+Use the Select option to choose individual entries
+Its the main section for leave encashment application submission
+Enter the amount in Amount Exempt
+Use the Calculate As Per Period feature and specify the period
+Look for Confirmation Date for this information
+It shows your entitlement for the current year up to a specific date
+Use Status List to see a list of application statuses
+Check Leave Lapsed for information on lapsed leaves
+Leave Used and Leaves Balance provide information on leave usage and balance
+Leave Wages Per Day displays the daily wage for encashment
+Use Quick Approval for swift application approval
+Enter the reason for your leave encashment application
+Leave Encashment Approval displays approval statuses
+It signifies the date of your leave encashment application
+Use Balance Till Date and specify the desired date
+Enter comments in the Comment field
+Look for Encashment Detail for detailed encashment information
+Use Escalation Status Name for escalation status information
+It signifies the end of the leave year for encashment purposes
+Check Total Leave In Year for this information
+Use View Leave Details Balance for leave balance details
+Check Check Escalation Is Not Set for this confirmation
+Click on Submit to submit your application for processing
+You can apply for leave by clicking on the Apply Now button on the Leave Application page
+To view the approval history click on the Approver History option on the Leave Application page
+You can delete a leave application by confirming your decision when prompted with the message Are you sure you want to delete this application
+When applying for leave you can attach a fitness certificate by using the Attach Fitness Certificate feature provided on the page
+You can check your available leaves as of a specific date by using the Available Leaves As On Date feature on the Leave Application page
+The Carry Forward feature allows you to carry forward unused leaves to the next year
+To check the escalation status you can use the Escalation Status List feature on the Leave Application page
+You can select leave details using the Select Detail option on the Leave Application page
+You can view the leaves youve utilized in the Utilized section of the Leave Application page
+You can delete a leave application after submission by confirming your decision when prompted with the message Are you sure you want to delete this application
+As per leave structure refers to the rules and guidelines defined in your organizations leave policy It may affect your leave application based on those rules
+You will need to attach a supporting medical document when it is required according to your organizations leave policy
+Yes there may be a limit to the number of leaves you can take in a lifetime depending on your organizations leave policy
+No the Leave Application Date cannot be after your retirement date
+You cannot apply for leave if the leave year has ended
+You can attach documents to your leave application using the Attach Documents feature on the page
+In the Leave Name field specify the type of leave you are applying for such as sick leave or vacation leave
+You can see who the leave application is pending with by checking the Pending With field on the Leave Application page
+Yes you can add remarks to your leave application
+You can select a leave type from the available options using the Select or Select All feature on the Leave Application page
+The Days from leave date field may be used for specifying the number of days for your leave application
+The total leave days application should be greater than 0 Make sure you have specified the correct number of leave days
+On is used to specify a particular date for your leave application
+You cannot apply for past leaves because the leave application date should be in the future
+No you cannot apply for leave too early in advance
+The Application date field is for specifying the date on which you are submitting your leave application
+You can update your contact and address information on the Contact  Address section of the Leave Application page
+No the Leave Application Date cannot be after your separation date
+No the Leave Application Date cannot be before your join date
+Period may refer to the duration or time frame for which you are applying for leave
+It is important to check the date and shift to ensure that your leave application aligns with your work schedule and the organizations policies
+No you cannot select an employee on leave for the same period as your backup
+The error message indicates that you have already applied for leave for a certain number of days within a specific time frame and it exceeds the limit defined by your organizations leave policy
+You can apply for leave before a certain number of days as per your organizations policy
+You cannot apply for leave after the yearend processing is done because the leave year has been closed and no further applications are allowed for that year
+You can confirm that all supporting documents have been submitted by checking the All Supportings Submitted status on the Leave Application page
+The Due Date field may contain the deadline or due date associated with your leave application
+The CompOff Expiry Date specifies the date until which you can use your compensatory off leave
+You can check your current year entitlement until a specific date by using the Current Year Entitlement Till Date feature on the page
+Lapsed Days refers to the number of days of leave that have expired or lapsed without being utilized
+The Leave Reasons field is used to specify the reasons for taking leave while the Leave Remarks field can be used for additional comments or explanations regarding your leave application
+Leave Days indicates the number of days you are requesting for leave and Day Type may specify whether its a full day or a halfday leave
+You can manually enter leave details using the Manual Leave Entry feature on the Leave Application page
+If you do not have sufficient leave balance you may be asked to contact your HR Business Partner for further clarification or to discuss alternatives
+Verifying the leave structure ensures that your leave application complies with the rules and requirements specific to the selected leave type
+If you have already applied for leave exceeding the annual limit you may need to reconsider your leave plans or seek approval for exceptions
+No if the attendance period has been closed you cannot modify your leave application
+When the application is in escalation process it indicates that the request is being forwarded to higher authorities for approval Modifications to the application may not be possible during this stage
+Yes there may be a maximum limit to the number of days you can apply for leave as defined by your organizations leave policy
+You cannot withdraw your leave application if your leave balance is already at its maximum because you have no additional leave days to credit back
+To approve a leave application use the Leave Approval feature on the page and follow the approval workflow specified by your organization
+You can check if all supporting documents have been submitted by reviewing the All Supportings Submitted status on the Leave Application page
+CompOff Date refers to the specific date for which you are applying for a compensatory off leave
+You can view the escalation remarks in the Escalation Remark section on the Leave Application page
+The Expected Delivery Date field may contain the estimated date of delivery for a leave application related to maternity or paternity leave
+The Reference Code field may be used for adding a unique identifier or reference to your leave application
+You can specify the day of the week by using the Week Day option when applying for leave
+If your applied leave days exceed your current leave balance you may need to revise your leave application or seek approval for the additional days
+You need to attach a supporting medical document when it is a requirement based on your organizations leave policy
+If there is no defined shift for your leave you should contact your HR or leave administrator for guidance and clarification
+Error messages may appear for various reasons such as incomplete information or policy violations Review the specific error message to understand the issue and take appropriate action
+You can validate your leave application as per the rules using the Validate As Per Rule feature provided on the Leave Application page
+Applications in the escalation process cannot be modified because they are being reviewed by higher authorities You may need to wait for approval or contact the relevant person for assistance
+Yes you can apply for a minimum number of leave days based on your organizations leave policy
+Yes there may be a maximum limit to the number of leave days you can apply for depending on your organizations leave policy
+You may not be able to approve a leave application for various reasons such as policy violations or lack of permissions Review the specific error message or consult with your HR department for assistance
+The message indicates that you have already initiated the process of canceling a previously submitted leave application
+This displays the date and time when a particular record was created
+The Target Field Name displays the designated fields in your HRMantra to which the imported data will map
+This feature allows users to import and export leave history data for analysis and backup purposes
+This represents the title or name given to a particular set of mapping rules between the source and target fields
+The Source Field Name indicates the field names in the source file from which data will be imported
+Click on Add new rule and import to define and apply new mapping rules
+Simply click on the Import button to begin the data importation
+Yes the Imported Date feature shows the date when a file was last imported
+Navigate to Imported File to see a list of all imported files
+By clicking View Import History you can review a log of all your past imports
+The Mapping section lets you define how data from the source file will map to your HRMantra
+It represents metadata or categorical information about the current page
+Yes use Leave Adjustment ImpExp to make adjustments to leave records
+Click on Click to upload Or Drag drop file here and choose the file from your device or drag it to the designated area
+Yes refer to Maximum File Size for the allowable limit for upload
+Yes click Export Template to download a predefined format for data input
+Navigate to Leave Closing Balance Of The Year for this data
+These are predefined rules that determine how source data maps to target fields in the HRMantra
+Yes the Leave Opening Bal ImpExp shows the leave balance at the start of the year
+It displays specific details or records based on the chosen filters or criteria
+Click on View Mapping History to see a log of all changes made to field mappings
+Yes refer to Allowed File Extensions for the list of permitted file types
+It provides additional metadata or classification information about a particular data set or record
+It allows users to import and export credit leave records facilitating easy data management
+Validation ensures data consistency accuracy and integrity when importing or exporting data
+Yes refer to the Employee Name feature
+The Date Imported feature displays the timestamp of when data was last exported
+It provides a standard format to help users structure their data correctly before importing it into HRMantra
+This ensures that all data must pass specific validation rules before it can be imported ensuring data quality
+Source Field is the actual data column from the source file while Source Field Name is the label or name of that column
+Navigate to the Leave Adjustment ImpExp to make necessary changes to an individuals leave records
+Yes refer to Allowed File Extensions to check the supported file types for import
+Yes the View Mapping History option provides a historical view of all changes made to the mapping rules
+HRMantra will display an error and the upload will be unsuccessful Ensure your file is within the specified limit
+Info Type categorizes or classifies your data offering a clearer understanding and organization of your leave records
+Utilize the Leave Credit ImpExp feature to either import bulk leave credits or make manual adjustments
+Yes navigate to View Import History to get a consolidated view of all your past imports
+Yes the Mapping feature visually demonstrates how data fields from the source relate to target fields in the HRMantra
+After importing check the Imported Date and Imported File sections A recent timestamp and file name indicate a successful import
+While HRMantra supports drag and drop functionality you should refer to the tools documentation or Page Info Type to see if bulk uploads are supported
+Ensure that your file matches the Export Template adheres to the Allowed File Extensions and validate the data If issues persist contact your system administrator
+Click on the Export Template option to download a standard format aiding in structuring your data for future imports
+Yes it ensures that you cannot proceed with an import unless the data meets the validation criteria set by HRMantra
+Yes using the Add new rule and import feature you can define and customize mapping rules as per your requirements
+The Employee Name field will display the name of the employee linked to a specific leave record or import
+Yes with Leave Opening Bal ImpExp and Leave Closing Balance Of The Year features you can adjust balances for both timeframes
+Ensure youve successfully imported the file If issues persist refresh the Leave History ImpExp page or contact your system administrator
+The Adjustment Date refers to the specific date on which any modifications or adjustments were made to an employees leave balance
+Available Leaves As On Date is calculated by summing up the Carry Forward from the previous period A Current Year Entitlement till Date B and Manually Adjusted leaves C and then deducting Leaves Used Including Pending Leave E and Leaves Lapsed In case of validity F
+Yes using the Manual Leave Entry feature you can manually input or adjust leave data for any employee as required
+To view detailed leave history navigate to Leave History or click on View Leave Balance Details for a comprehensive breakdown
+Join Date refers to the date an employee officially started working in the organization Group Join Date pertains to the date an employee joined a specific department or team within the organization
+Utilized Days refer to the total number of leaves an employee has taken while Leave Used Including Pending Leave E includes both approved and pending leave requests
+Yes you can view any comments or remarks made by the approver in the Approver Name  Remarks section
+This indicates the number of leaves that will be forfeited or lapsed if not used by the end of the year
+Yes any leaves that are manually adjusted can be viewed under Manually Adjusted C
+Leave Year End refers to the closing date of the leave year which is the last day of the calendar or fiscal year depending on company policy
+The Approved On feature displays the date on which a leave request was approved by the relevant authority
+You can find the name of the person who approved a specific leave request under the Approver Name feature
+The Credited Date refers to the date on which leaves were added or credited to an employees leave balance
+This represents the total leave entitlement an employee has accumulated from the beginning of the current year up to the present date
+As on date refers to the specific date on which the leave balance or history is being viewed or reported
+Yes by clicking on the View Details option you can access a detailed breakdown of any specific leave entry
+The Expiry Date feature will show the date on which a particular leave type like comp off will expire if not utilized
+From Date indicates the starting day of the leave period while To Date signifies the ending day of the leave period
+This represents the number of leaves from the previous year or period that an employee is allowed to carry forward to the current period
+Yes by clicking on the Print button you can print out the leave balance and history for recordkeeping or reference purposes
+This feature allows you to determine an employees leave balance as of a specific date by factoring in all credits debits and adjustments up to that date
+The Last Working Date refers to the most recent date on which the employee was present at work before taking a leave
+Yes using the Adjustment Days feature you can modify the number of leave days for any particular entry
+Deduction Type indicates the method or reason for a leave deduction such as absence late coming or any other specified reason
+This feature allows you to track compensatory offs that an employee earns against extra working days or overtime
+Current Year Accumulated Till Date refers to the total leaves an employee has accumulated over the year while Current Year Entitlement Till Date B indicates the leaves an employee is entitled to up till the current date
+Yes the Leave Abbreviation feature provides a brief description or legend for all leave type abbreviations used in HRMantra
+Yes the Leaves Lapsed In case of validity F feature shows the number of leaves that will be forfeited if not utilized within a certain validity period
+This feature provides a detailed breakdown of how an employees credited leaves have been utilized throughout the year
+Remarks can be viewed or added under the Remarks feature Additionally the applicant and approver can provide specific comments under Applicant Remarks and Approver Name  Remarks respectively
+Final Status provides the ultimate decision or state of a leave request indicating whether its approved pending rejected or any other possible status defined in HRMantra
+The Confirm Date indicates the day on which a leave request was either approved or rejected confirming its final status
+Yes Total Leaves In A Year showcases the overall leave entitlement for an employee for the entire year
+Balance as on date represents the current leave balance of an employee as of a specific date taking into account all accrued and utilized leaves up to that date
+Ref code is a unique identifier for a specific leave request and Application Date indicates the day the leave request was made
+Yes the Extra Working On feature showcases dates when an employee worked beyond their regular hours or on offdays
+This feature allows admins or managers to manually credit leaves to an employees account outside of the regular accruals
+By using the Calculate Leaves Used As On Date Only feature you can determine the total leaves utilized by an employee up to a specific date
+It refers to the leave balance an employee had at the end of the previous year or period before any new accruals or lapses for the current period
+Clicking on View Leave Balance Details will provide you with a comprehensive breakdown of any specific leave entry including dates types and remarks
+The Show feature allows you to filter and display specific leave records based on selected criteria helping to streamline the view and make it easier to locate specific entries
+The Leave Name feature provides the specific name or type of leave taken such as sick leave vacation or personal day
+Yes the Manually Adjusted C feature lets you make manual corrections or adjustments to an employees leave balance which might be necessary due to errors or special circumstances
+This feature offers a detailed breakdown of how credited leaves have been used or allocated by an employee throughout the year
+Yes by clicking on the Print button you can generate and print a detailed report of an employees leave balance and history for recordkeeping or managerial review
+By clicking on the View Details option you can access a comprehensive breakdown of a particular leave entry including dates remarks and status
+Leave Abbreviation provides short codes or symbols representing different leave types making it easier to quickly identify and categorize them in records
+Both applicants and approvers can add specific comments or feedback under the Applicant Remarks and Approver Name  Remarks sections respectively
+Deduction Type specifies the reason for a reduction in leave balance whether its due to utilization an absence or another specified reason
+Yes the Comp Off Against feature lets you track the days when an employee worked extra and earned compensatory offs
+This represents the number of leaves you have available as of a specific date
+From Date denotes the starting day of your leave period
+This feature generates data according to the specifications in Form M as governed by Rule4 of the leave regulations
+You can select a leave type from the available options listed in the dropdown
+This indicates the number of days you are planning to take off or have taken off
+This displays the total number of leaves an employee is entitled to in a calendar year
+This means you havent selected any leave type and need to choose at least one before proceeding
+This message is displayed when theres no ongoing leave processing activity that can be halted
+This represents the initial balance of leaves you had at the start of the period or year
+It provides a reference date to check your leave balance or any other datespecific information
+This represents the number of leaves that were not utilized and have expired by the end of the year or period
+To Date denotes the ending day of your leave period
+This is the overall mechanism through which leave requests are processed and approved
+This means that you need to ensure all necessary fields are correctly filled before submitting the leave request
+This shows the remaining leave balance after processing the latest leave request
+It ensures that HRMantra calculates leave only up to a specific date youve chosen ignoring subsequent dates
+This shows the total leave days youre entitled to up to the current date
+The Leave Balance feature displays the number of leaves you currently have remaining
+It allows users to halt any ongoing leave processing activity
+This represents the number of leaves from the previous year or period that have been carried forward to the current period
+This refers to the type or category of leave eg sick leave casual leave etc
+You can add any additional comments or information about your leave in the Remarks section
+This message appears when a leave type isnt defined in HRMantra Ensure that all leave types are correctly set up in the leave master
+Balance as on date shows your leave balance on a specific date whereas Available Leaves As On Date displays leaves you can avail as of a given date
+The former displays the data while the latter is an action button to generate the data based on Form M specifications
+This feature allows HR or admins to manually adjust the leave balance in special circumstances
+This indicates the number of leaves you have remaining at the end of a period or year
+It denotes the total leaves availed by an employee during a specified period
+Leave Used is an accumulation of all the leaves youve availed during the year It can be tracked through HRMantras reporting and analytics features
+Opening Balance is the number of leaves you start with at the beginning of a period while Closing Balance is what remains at the end after all leaves taken and accrued are considered
+Yes Carry Forwarded leaves are autocalculated based on unused leaves from the previous period and the policies set by your organization
+The limit for Carry Forwarded leaves is defined by your organizations leave policy You can consult the HR department or refer to the policy document in HRMantra
+While Remarks might be optional they offer an opportunity to give additional context or reasons for your leave which can be helpful for approval processes
+Only administrators or HR personnel can modify the Leave Name once its been defined in the leave master
+Any manual adjustments should be carefully done If an error occurs consult with your HR or system administrator to make necessary corrections
+Leave Lapsed means those leaves are no longer available for use However specific policies may allow exceptions based on the organizations discretion
+Depending on your organizations leave policy unused leaves might either lapse get carried forward to the next year or a combination of both
+The Leave Process page is updated in realtime or as soon as any transaction related to leave occurs
+Some leaves might have prerequisites or may only become available after a certain period of employment Ensure you meet all criteria for that specific leave type
+Balance as on date provides you a snapshot of your leave balance on a particular day helping you plan leaves accordingly without affecting future leave plans
+This data adheres to Form M specifications as mandated by Rule4 Its essential to understand the guidelines associated with Form M to interpret the data accurately
+Ensure all required fields are filled out correctly Missing or incorrect information will prevent leave processing so its crucial to validate all entries
+The Stop function allows you to halt any ongoing leave calculation or processing temporarily Its useful if you detect an error or need to make adjustments
+Yes but   this requires specific permissions or roles like HR or system administrator Always ensure that the reason for adjustment is documented for transparency
+This message indicates that HRMantra requires certain leave types to be predefined in the leave master It ensures standardization and consistency in processing leave requests
+Entitlement till date represents the total leave youve earned or accumulated up to a specific date while Leave Balance displays your remaining leaves after considering those availed
+Closing Balance is the resultant leave count at the end of a period after considering all taken leaves accrued leaves lapsed leaves and any other adjustments
+HRMantra relies on accurate data input Any discrepancies should be reported to HR or HRMantra administrator for correction Regular audits can also help ensure data accuracy
+While you can apply approval depends on your organizations leave policy Some organizations may allow negative balances but it could lead to deductions or adjustments in future leave accruals Always consult with HR before taking such actions
+The Carry Forwarded leaves from the current year are added to your Opening Balance for the next year subject to the maximum carryforward limit set by your organizations leave policy It allows employees to benefit from unused leaves
+The Entry from Manual page feature allows users to input leave details manually providing greater flexibility for unique or special cases
+Leave Days To is used to specify the end date of the leave period you are searching for Just select or input the desired date
+No and Yes are options you can choose based on specific criteria in the leave search The exact context can vary based on where and when these options are used
+The Application date feature allows you to input or select the date on which the leave application was made
+Select All lets you choose all the records displayed on the current page Its a shortcut to avoid selecting records individually
+As Per The Weekdays ensures that the leave calculation only considers regular working days excluding weekends or other nonworking days
+Click on the Get Leave Adjustment Record button to retrieve records of any adjustments made to the leave such as compensatory offs or corrections
+Leave Days From lets you specify the start date of the leave period youre searching for
+Pending With shows the name or designation of the person with whom the leave application is currently pending approval
+The Leave Search Engine is the main search tool Input your criteria and hit search to retrieve relevant leave records
+Download Excel lets you export the displayed leave records into an Excel file for offline access or further analysis
+See More provides additional details or context about a particular record or field Its useful when the initial display has limited information
+This message indicates that certain fields are mandatory and must be filled out or selected before proceeding
+The Applicant field displays the name of the employee who has applied for the leave
+Filter Criteria lets you refine your search based on specific parameters ensuring that the results are more aligned with what youre looking for
+This prompt appears when the Leave Days To field is left empty but is required for the current search or action
+Display Criteria allows you to select which columns or fields you want displayed in the results
+This prompt appears when the Leave Days From field is left empty but is required for the current search or action
+This prompt indicates that you need to select at least one leave record from the displayed list before proceeding with a particular action
+Leave Application Criteria is a set of fields or options you need to fill out or select to refine your leave search
+Leave From Date is the starting date of the leave period in question
+Leave Remarks Like is a search feature that lets you find leave records based on specific keywords or phrases in the leave remarks or notes
+Leave To Date is the end date of the leave period while Leave Days To might refer to the total number of days till the end date from the start date
+Other Criteria encompasses any additional filters or fields not covered under the main search criteria allowing for a more refined search
+This feature lets you display leaves based on the application date helping you see when an employee applied for leave
+Total Records shows the total number of leave records that match your search criteria whether theyre displayed on the current page or across multiple pages
+Use the Display Criteria to select the desired order of display Certain columns may also have clickable headers for sorting purposes
+Yes by using the Get Leave Adjustment Record feature you can view any adjustments or modifications made to a particular leave application
+The Leave Search Engine is highly accurate pulling from the database based on the criteria youve set Ensure your filter criteria is set appropriately for best results
+The download limit might depend on system settings or configurations  all displayed results can be exported Check with system admin for any restrictions
+Yes by clicking on See More next to a specific leave entry you can get a more detailed view or overview of that application
+If Validation Is Mandatory appears review the form and fill in all mandatory fields to proceed
+Yes use the Applicant field in the Filter Criteria to specify the employees name or ID you want to search for
+Use the Display Criteria option to select or deselect fields based on your preference This adjusts the columns displayed in your search results
+Depending on user privileges you may or may not be able to adjust dates If changes are needed use the Leave From Date and Leave To Date fields or contact HR
+Use the Leave Remarks Like field to search and review remarks These   provide additional context or reasons for the leave application
+Yes you can use multiple fields in the Filter Criteria Other Criteria and Leave Application Criteria to refine your search to specific needs
+Set the Leave From Date to the start of the past month and Leave To Date to the end of the past month in the search criteria
+Check if all mandatory fields are filled If issues persist contact your system administrator or the support team for assistance
+The difference between Leave From Date and Leave To Date gives the duration Total Records can also give insights into the number of leave applications
+Depending on system features you may be able to save search criteria as templates or presets Check with the software documentation or support for this functionality
+Use the Select All feature to select multiple applications then proceed with bulk actions as per software functionality and user privileges
+Look for the status of the leave application or use the Pending With feature to see where the application is currently in the approval process
+Yes use the Leave Remarks Like field in the search criteria to find leave applications based on specific keywords or notes
+Using the Leave From Date and Leave To Date criteria you can view leave applications for any specific period The Total Records might give a summary count
+Use the Pending With feature and input the supervisors or managers name or ID to see applications pending with them
+After setting your search criteria and getting the results click on the Download Excel button to export the results to an Excel sheet
+The search engine pulls realtime data from the database so it reflects the latest information each time you conduct a search
+Navigate to the My Leaves page All your leaves will be listed there
+Yes use the date filter option on the My Leaves page to view leaves within a specific period
+On the My Leaves page click on the Apply button and fill out the required details
+Yes select the leave entry and use the Edit option to make changes
+Select the desired leave entry and click the Delete option
+The status of each leave is displayed next to the leave entry on the My Leaves page
+Yes clicking on the rejected leave will provide details including the reason for rejection
+The types of leaves available are defined in the Leave Configuration Check there for details
+Yes the My Leaves page displays your remaining leave balance
+Leave balance is based on the leave policies set in Leave Configuration
+This depends on the policies set in the Leave Configuration Check there for details
+Approved leaves will have the status Approved on the My Leaves page
+Yes select the HalfDay option when applying for leave on the My Leaves page
+Use the date filter on the My Leaves page to view leaves for a specific month
+The approval authority is set in the Leave Configuration    its your reporting manager
+Yes theres an option to attach relevant documents when applying for leave
+Approval times vary Check with your reporting manager or HR for specifics
+Yes you can apply for leaves for future dates
+The maximum number of leaves you can apply for is based on your leave balance and policies set in Leave Configuration
+Grace periods if any are defined in the Leave Configuration
+Yes the My Leaves page lists all your past and upcoming leaves
+This depends on the policies set in Leave Configuration
+You can modify your leave application and attach a medical certificate for validation
+Yes while applying specify the different periods you wish to take leave
+Your entitled leaves are displayed as your leave balance on the My Leaves page
+Yes go to the leave entry and select the Cancel option
+You may not be able to apply for more leaves or may have to apply for unpaid leave based on Leave Configuration policies
+This depends on the policies set in the Leave Configuration
+Yes the My Leaves page reflects your current leave balance
+Yes while applying select multiple leave types if needed
+Edit your existing leave application and specify the reason for the extension
+The start and end dates are displayed next to each leave entry on the My Leaves page
+This depends on the policies set in the Leave Configuration
+ only managers or HR can view team members leaves Check your user permissions
+Public holidays are   marked on the company calendar Check there before applying
+This depends on the policies set in the Leave Configuration
+Use the date filter on the My Leaves page to view leaves taken during a specific period
+This depends on the policies set in the Leave Configuration
+Unused leaves may be carried forward or lapse based on Leave Configuration policies
+Leave entitlement for parttime employees is defined in the Leave Configuration
+This depends on the policies set in the Leave Configuration
+Rejected leaves are marked with the status Rejected on the My Leaves page
+Yes you can create a new leave application if your previous one was rejected
+This is    prorated based on the joining date and policies in the Leave Configuration
+This depends on the policies set in the Leave Configuration
+The type of leave paid or unpaid is mentioned when you apply and is based on Leave Configuration policies
+This depends on the policies set in the Leave Configuration
+Company shutdown policies are defined in the Leave Configuration
+Yes if maternitypaternity leave is configured in the Leave Configuration you can apply through My Leaves
+This feature depends on system settings    an audit trail or history is maintained for transparency
+To configure the month for annual leave navigate to the Month feature on the Annual Leave page and select the desired month from the dropdown menu
+The Purpose List allows you to define and categorize different reasons for annual leave making it easier to track and manage leave requests
+To add a new purpose click on the Add button in the Purpose List feature and enter the desired purpose name
+Yes to edit a purpose click on the Edit button next to the desired purpose in the list make your changes and save
+The Annual Leave feature allows you to set the number of annual leave days an employee is entitled to while the Month feature determines the month in which the leave year begins
+Navigate to the Annual Leave feature enter the desired number of leave days in the provided field and save your changes
+Yes using the Month feature you can set the start month for annual leave accrual allowing employees to accumulate leave on a monthly basis
+Depending on your companys leave policy unused annual leave may be carried over to the next year or it may expire Please refer to your companys leave policy for specifics
+Yes to delete a purpose click on the Delete button next to the desired purpose in the list
+Navigate to the Annual Leave feature and search for the employees name Their remaining annual leave will be displayed in the respective column
+Yes the Annual Leave feature allows you to set leave entitlements based on an employees employment status including parttime
+No theres no predefined limit You can add as many purposes as needed to categorize annual leave reasons
+Yes employees can request leave for other reasons but having predefined purposes helps in better categorizing and managing leave requests
+Navigate to the Annual Leave feature select the employees for whom you want to reset entitlements and use the Reset option
+Depending on your softwares capabilities there may be features to import or export leave configurations Please refer to the software documentation for specifics
+Yes using the Annual Leave feature you can customize leave entitlements based on employee grades or levels
+HRMantra will automatically deduct the days from the respective leave years based on the leave start and end dates
+Depending on your softwares capabilities You will be able to set limits on consecutive leave days under the Annual Leave settings
+Public holidays are    not counted as annual leave days Ensure your leave settings exclude public holidays from the leave count
+Yes navigate to the notification settings section of your software to customize how and when notifications for leave requests are sent
+This is    managed based on company policy priority or on a firstcomefirstserve basis The software may provide tools to view overlapping leave requests
+Depending on your softwares reporting capabilities you may be able to generate reports to view leave trends over specific periods
+The Annual Leave page is primarily for managing annual leave Sick leave might have its own separate configuration page or settings
+HRMantra software provides audit trails for configuration changes Check the logs or history section to view changes made
+Yes employees    have access to view their own leave balance and history depending on the permissions set in the software
+Overleave situations are    flagged by HRMantra The company can then decide on the course of action based on its policy eg unpaid leave
+Navigate to the Annual Leave settings to configure rules for carrying over unused leave to the next year
+Yes under the Annual Leave settings you can set mandatory leave days that apply to all employees
+Navigate to the Annual Leave feature find the employees record and adjust the leave dates as needed Ensure you have the necessary permissions to make such changes
+Yes under the Annual Leave settings you can configure a waiting period for new hires before they start accruing leave
+The Annual Leave page is for paid leave configurations Unpaid leave might have its own separate settings or be managed differently
+Depending on your softwares capabilities You will be able to set leave in halfday or hourly increments under the Annual Leave settings
+Employees on probation might have different leave entitlements Navigate to the Annual Leave settings to configure leave for this specific employee group
+Yes under the notification settings you can configure alerts for when an employees leave balance reaches a certain threshold
+Leave encashment has its own separate configuration
+HRMantra software provides a calendar view where you can see all scheduled leave for employees Navigate to the relevant section to view this
+Navigate to the Annual Leave settings to configure leave based on shifts or working hours Ensure your settings align with company policy
+Yes under the Annual Leave settings you can configure a minimum notice period for submitting leave requests
+Depending on your software there might be integration tools or settings to link the Leave module with other modules like Payroll or Attendance
+Yes under the Annual Leave settings you can set criteria for leave requests to be automatically approved such as requests below a certain number of days
+Navigate to the Annual Leave settings to set up leave configurations specifically for temporary or contract employees
+Yes under the Annual Leave settings you can configure leave entitlements that scale based on an employees years of service
+Maternity and paternity leave might have separate configurations or be managed under a different section than Annual Leave Refer to your software for specifics
+Yes under the Annual Leave settings or calendar you can set specific dates as blackout dates where leave requests are not allowed
+Yes within the Annual Leave feature you can specify a maximum limit for annual leave accumulation Any accrued leave beyond this limit may not be carried over or might be forfeited based on your settings
+Navigate to the Annual Leave feature You can customize and override default settings for specific employees if they require unique configurations or exceptions
+Yes the Annual Leave feature allows you to configure leave accrual rates based on employee grades or roles This ensures flexibility in managing leave policies for different employee groups
+In the Annual Leave section there should be a history or logs feature that lets you view historical annual leave data including leave taken accrued and any modifications
+Depending on your softwares capabilities you can set up automatic notifications or reminders for employees who are nearing or have reached their maximum leave accrual limit
+If your software supports leave encashment navigate to the Annual Leave feature and there should be an option to process leave encashment based on the number of unused leave days and the employees salary
+Yes    HCM software allows for integration between the Leave module and other HR modules like payroll This ensures seamless processing of leaverelated payouts or deductions
+Go to the My Team Leaves page and click on the Submit button Fill out the required details and submit
+Escalation Remarks allows managers or team leads to add comments or feedback regarding a particular leave request that needs escalation
+Click on the Leave Remarks option next to the relevant leave request and input your comments or feedback
+Leave Days displays the number of days an employee has requested off
+The Status column on the My Team Leaves page will show the current status of each leave request
+Go to the My Team Leaves page Here youll see a list of all leave requests made by your team members
+Leave From Date indicates the starting date of the requested leave period
+Yes the Leave Name column will display the type of leave eg sick leave vacation etc requested by the team member
+The Leave To Date column displays the end date of the requested leave period
+Use the Select Status dropdown to filter leave requests by their status eg approved pending rejected
+Click on the Send To option next to the relevant leave request and select the person you want to forward it to
+Once a leave request is submitted it cannot be modified directly However you can cancel the request and submit a new one with the required changes
+Any leave request that requires your attention will be highlighted or marked with a notification icon on the My Team Leaves page
+Yes you can add additional Leave Remarks or Escalation Remarks even after the leave request has been processed
+The Status can be Pending awaiting approval Approved granted or Rejected denied
+While the My Team Leaves page primarily displays leave requests the leave balance can be viewed in the detailed profile of each team member or in the leave summary report
+Click on the respective leave request and select the Reject option Optionally you can add remarks explaining the reason for rejection
+Depending on your softwares functionality You will have a bulk approval feature If so select multiple leave requests and choose the Bulk Approve option
+The Sent By or Forwarded By column if available will indicate who forwarded the leave request to you
+Reach out to your HR or admin team to rectify the mistake Depending on the software You will also have the option to revert the approval
+Check the Leave Remarks section for the reason provided by the team member when submitting the leave request
+Leave limits are    set in the main leave configuration settings If you have the necessary permissions you can set or modify leave limits there
+You may need to manually add or search for the persons name in the Send To option or check with your HR or admin team for assistance
+Depending on your softwares features there may be a History or Audit Trail option that shows all actions and remarks associated with a leave request
+Leave requests that are escalated might be highlighted or they might have a specific status like Escalated displayed in the Status column
+Automatic escalations are    set in the main leave configuration settings Check there or consult your HR or admin team
+This information might be available in leave summary reports or in the detailed profile of each team member
+Depending on your softwares features there may be an Export or Download option on the My Team Leaves page
+Some software provides a team calendar view where you can visually see if multiple team members have requested leave for the same period
+Such rules are    set in the main leave configuration settings Check there or consult your HR or admin team
+Use the search bar or filters available on the My Team Leaves page to find a specific leave request
+Yes you can use the Leave Name filter to categorize or view leave requests based on their type
+Default approvers are    set in the main leave configuration settings Check there or consult your HR or admin team
+Depending on your software there might be a dashboard or reports section where you can view graphical representations of leave trends
+The Status might show AutoApproved or a similar status and the Remarks section might have a note indicating the rule based on which it was approved
+Depending on the softwares flexibility You will have the option to customize columns filters and the overall view of the page
+Reminders are    set in the main leave configuration settings Check there or consult your HR or admin team
+Yes use the date filters on the My Team Leaves page to view leave requests from previous years
+Check the History or Audit Trail of the leave request to see all actions including modifications
+Some software allows you to set a proxy or delegate for approvals Check the settings or consult your HR or admin team
+Click on the respective leave request and select the Cancel or Revert option Optionally you can add remarks explaining the reason for cancellation
+You may need to refer to your project management tool or consult with the respective project manager to understand the impact
+Depending on your softwares capabilities there may be options to integrate with other tools or sync with calendars Check the settings or consult your IT team
+Notifications are    set in the main leave configuration settings Check there or consult your HR or admin team
+Some software provides a sidebyside view of the holiday list or highlights public holidays in the calendar view on the My Team Leaves page
+The Leave Days column might show 05 for halfday requests and 1 for fullday requests Alternatively there might be a specific column or tag indicating this
+Setting priority levels is    done in the main leave configuration settings Check there or consult your HR or admin team
+This information might be highlighted on the My Team Leaves page or available in leave summary reports
+Check the Leave Remarks or Escalation Remarks section for the reason provided by the approver for rejecting the leave request
+Some software provides a direct messaging or email option from the My Team Leaves page Alternatively you can contact the team member using your organizations preferred communication tool
+The Select Purpose feature allows you to choose the reason for the leave Simply click on the dropdown and select the relevant purpose for your leave
+Legends provide visual cues for different types of leaves on the calendar making it easier to understand the leave status at a glance
+Use the Select Period Name dropdown to choose the desired period eg monthly quarterly for which you want to view the leave calendar
+Yes use the Employees feature to select and view leaves of specific employees or groups
+The Leave Calendar displays leaves for the selected period Use the arrows or date selectors to navigate through different periods
+No the Leave Calendar is primarily for viewing To apply for leave please navigate to the Apply Leave page
+The colors represent different leave statuses as defined in the Legends For example green might represent Approved while red might indicate Rejected
+Yes simply navigate to the desired period using the Select Period Name feature
+Weekends are    highlighted or marked differently to distinguish them from weekdays Refer to the Legends for specifics
+Click on the date in the Leave Calendar If any leave details are available for that date they will be displayed
+No the Leave Calendar is for viewing purposes only To edit leaves navigate to the Manage Leaves page
+The Leave Calendar may have a summary section that provides such details If not refer to the Leave Summary page
+Pending means the leave request is awaiting approval while Approved means the leave request has been accepted
+The Leave Calendar is updated in realtime as leave statuses change
+If theres an export option available you can use it to export the calendar If not please contact HRMantra administrator
+Use the Employees feature to select specific departments or groups to filter the calendar view
+Yes public holidays are    marked or highlighted in the calendar Refer to the Legends for specifics
+Use the Select Period Name dropdown and choose the weekly option
+The Leave Calendar primarily displays leave dates For leave balances refer to the Leave Summary or a similar page
+Ensure you have the necessary permissions to view all employees If you do the employees might not have any leave records for the selected period
+Customizing Legends    requires administrative access Contact your system administrator for more details
+There might be a refresh button or option If not simply navigating away and returning to the page should refresh the view
+If theres a print option available you can use it Otherwise use your browsers print functionality
+Grayedout dates might represent past dates or nonworking days Refer to the Legends for specifics
+By default youll see leave types For detailed reasons click on the specific leave date or refer to the Leave Details page
+Use the Select Period Name dropdown and navigate to the desired year
+The Leave Calendar is for viewing To add notes or comments navigate to the specific leave application or management page
+The Select Purpose might be grayed out if you dont have the required permissions or if its not applicable for the selected view
+Use the Select Period Name dropdown and choose the yearly option
+If a zoom feature is available use it Otherwise use your browsers zoom functionality
+Yes halfday leaves are    represented differently Refer to the Legends for specifics
+Use the Help or Feedback option in the HCM software or contact your system administrator
+Yes
+Ensure you have a stable internet connection If the issue persists contact your system administrator
+The Leave Calendar is primarily for leaves For overtime details navigate to the Overtime or a similar page
+This requires administrative access Contact your system administrator for customization options
+If your HCM software has a mobileresponsive design or a mobile app you can view it on mobile devices
+Ensure youve selected the right period and filters If the issue persists contact HR or HRMantra administrator
+Hover over the legend or click on it A tooltip or description might appear
+This requires administrative access Contact your system administrator for customization options
+This might indicate exceptions or issues with the leave Refer to the Legends or click on the leave for details
+If a list view option is available you can use it Otherwise check with HRMantra administrator for alternative views
+By default the approvers details might not be displayed Click on the specific leave or navigate to the Leave Details page for such information
+Modified leaves might be marked differently Refer to the Legends or click on the leave for a detailed history
+Yes rejected leaves should be displayed and can be identified using the Legends
+Use the Employees feature and search for the employees name or ID to filter their leaves
+Ensure youve selected the right period If youre still facing issues it might be a restriction set by HRMantra administrator
+Customizing views    requires administrative access Contact your system administrator for more details
+The Leave Credit page allows users to credit leave days to employees providing a detailed workflow for approval
+Leave Name refers to the type of leave being credited Select the appropriate name from the dropdown before proceeding
+Leave Credit indicates the number of days being credited to an employees leave balance
+After filling in the necessary details click on the Submit button to initiate the leave credit process
+Yes use the Remark field to add any notes or comments relevant to the leave credit
+Escalation Remarks are used to provide additional information or reasons when escalating a leave credit request
+Credited Days displays the total number of days credited to an employee while Leave Credit is the current entry
+Application date indicates the date on which the leave credit was applied or requested
+In the Send To option select the appropriate personnel or department responsible for approving or processing the request
+No once submitted the Leave Name cannot be edited Any changes require a new entry
+After submission youll receive a confirmation notification Additionally you can check the status on the dashboard
+HRMantra is designed for individual entries For bulk credits please refer to the bulk leave credit feature
+If an error is made please cancel the current request and create a new leave credit entry with the correct details
+Navigate to the leave credit history or logs section to view past entries and their statuses
+HRMantra allows one Remark per entry For additional notes use the Escalation Remarks section
+The leave credit details wont be saved or processed until Submit is clicked Always ensure to submit after entry
+Yes but this depends on the workflow set up in your HCM software Refer to the cancellation procedure in the user guide
+The HCM software employs robust security measures to ensure that all data is securely stored and accessed
+Yes depending on your role and permissions Please refer to the role management section for more details
+Once leave is credited a notification or email is sent to the concerned employee with the credited details
+The maximum limit varies based on the leave policy Please refer to your organizations leave policy for specifics
+Yes all escalation remarks are logged and can be viewed in the leave credit history or logs section
+Yes fields like Leave Name Leave Credit and Application date are    mandatory
+The Remark field is optional but its recommended to provide additional information if relevant
+Send To directs the leave credit request to the selected personnel or department for further processing or approval
+Yes the status can be viewed in the leave credit dashboard or history section
+This depends on your organizations leave policy Please refer to the policy for any deadlines or restrictions
+Yes if HRMantra supports fractional leave credits you can credit halfdays or other fractions
+Report the error to your IT or system administrator for resolution
+Theres    no daily limit but excessive entries might be flagged for review
+The approval details are logged and can be viewed in the leave credit history or logs section
+Depending on the HCM software features there may be a print or export option available
+Include any additional information or reasons that justify the need for escalation or urgent processing
+Yes you can specify a future Application date while crediting leave
+Review the rejection reason make necessary corrections and resubmit the leave credit request
+Yes the HCM software is designed to support multiple users accessing various modules concurrently
+Application date is when the request was made The actual credited date is when the leave gets added to the employees balance
+This depends on the HCM software features If supported there might be an option to attach relevant documents
+Yes HRMantra software maintains an audit trail for transparency and tracking purposes
+The updated leave balance is    displayed in the employees leave dashboard or profile
+This depends on the HCM software configuration Yesallow autoapproval based on certain criteria
+If the software supports it you can set reminders or alerts for specific actions or deadlines
+HRMantra has a backup approver or an escalation mechanism in place for such scenarios
+Yes approvers    receive notifications or reminders for pending actions
+This depends on the softwares features Yesmight support scheduled or recurring leave credits
+Depending on the HCM software you can generate various reports related to leave credit history approvals and more
+If the software supports it there might be an option to export the data in formats like CSV Excel etc
+Most modern HCM software offer mobileresponsive designs or apps allowing access to features like Leave Credit on mobile devices
+For further assistance contact your HR department or the HCM softwares customer support
+The Leave Reasons Master page allows administrators to define and manage the various reasons employees might take leave
+Navigate to the Leave Reasons Master page and use the Add button Fill in the required fields like Reason Name Preference Order etc and save
+Leave Name represents the type or category of leave eg Sick Leave Vacation etc
+Preference Order determines the sequence in which leave reasons appear in the list A lower number means it will appear higher up
+Is It Active indicates if a particular leave reason is currently active and can be used by employees If not active employees wont see or be able to use it
+Is it by default signifies if the leave reason is one of the default options provided by HRMantra or if it was added by an admin
+Yes you can edit the Preference Order to change the sequence of how leave reasons appear
+To deactivate a leave reason navigate to the respective reason and toggle off the Is It Active switch
+While you can deactivate a leave reason its recommended not to delete it to maintain historical data However check your HRMantras specific features
+Reason Name is the specific reason or cause for which an employee might take a leave It gives clarity on why leave was taken
+Each leave reason should have a unique Preference Order If theres a tie HRMantra might order them based on creation date or another factor
+This depends on the limitations of your HRMantra Check with your software provider for exact numbers
+Ensure that the leave reason is marked as Active and check its Preference Order to see where its positioned in the list
+No deactivated leave reasons will not be visible to employees when theyre applying for leave
+Navigate to the Leave Reasons Master page find the leave reason you want to edit and click the Edit option
+You can ensure this by toggling on the Is It Active switch for that specific leave reason
+Reviewing and updating leave reasons annually or whenever theres a significant policy change is a good practice
+Yes
+If set to Not Active that specific leave reason wont be available for employees to use when applying for leave
+HRMantra systems allow bulk editing or draganddrop functionality Please refer to HRMantra documentation
+Ensure the name is clear concise and accurately reflects the reason for leave making it easy for both admins and employees to understand
+The character limit might vary based on your HRMantra Check HRMantra specifications
+Grouping might not be directly supported but you can use the Preference Order to sequence them in a logical order
+While HRMantra might not have a direct feature for this employees can communicate their suggestions to HR or admin for consideration
+Leave reasons marked as By Default might be systemgenerated and may not be deletable However always refer to your HRMantras guidelines
+HRMantra provides reports or filters that allow you to view leave data based on specific criteria including leave reasons
+Customizability depends on your HRMantra Some platforms might allow adding custom fields or modifying existing ones while others might not
+Only administrators or users with specific roles can modify leave reasons Ensure you have the necessary permissions
+HRMantra offers a search or filter functionality on the Leave Reasons Master page Use this to quickly find specific leave reasons
+Yes regularly review and update leave reasons keep names clear and concise ensure active reasons are relevant and always keep historical data rather than deleting
+You be able to assign leave reasons based on roles departments or other employee groupings Check the software documentation for specifics
+HRMantra systems allow adding descriptions or notes to provide further clarity on each leave reason Refer to your software to see if this feature is available
+Instead of deleting its advisable to deactivate obsolete leave reasons to maintain historical data
+Employees will see a dropdown or a list of active leave reasons when they apply for a leave in HRMantra
+Employees or HR can   edit or update the leave application before its approved changing it to the correct reason
+Some HRMantra provides notification settings for administrative changes Explore HRMantra settings or user preferences to enable such notifications
+Review and consolidate duplicates Deactivate or modify the redundant entry to avoid confusion
+Its advisable to have a clear internal communication channel like an HR helpline or an FAQ section for employees to address such queries
+Consider creating a user guide hosting training sessions or referring to the softwares official documentation and training resources
+While the Leave Name acts as a broad category HRMantra software allow further categorization or tagging of leave reasons
+Leave Name is a broader category eg Sick Leave while Reason Name is specific eg Medical Appointment
+Changes to leave reasons dont alter existing records but they may affect future applications However always verify with your HRMantra
+Deactivated reasons can be reactivated Deleted reasons on the other hand may need to be recreated unless HRMantra offers a restore feature
+Refer to the software documentation contact your software providers support or consult your IT team

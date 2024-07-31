@@ -1,0 +1,961 @@
+Question,Answer
+What is the purpose of the Leave Master page?,The Leave Master page allows administrators to configure and manage different types of leaves available to employees.
+What is 'Leave Abbreviation'?,Leave Abbreviation is a short form or code used to represent a particular leave type for quick reference.
+What is the 'File Id' used for?,"The File Id is a unique identifier for each leave type, ensuring easy tracking and management."
+How can I change the 'Leave Color'?,"The Leave Color allows you to assign a specific color to each leave type, making it visually distinguishable in calendars or charts."
+Why might I want to 'Attach Leave Image'?,"Attaching an image can provide a visual representation or icon for the leave type, enhancing user experience."
+How do I edit the 'Leave Name'?,Click on the specific leave type and edit the 'Leave Name' field to modify it.
+What does 'Validation is mandatory' mean?,This ensures that certain criteria or conditions are met before the leave can be approved or processed.
+Is there a difference between 'Leave Master' listed twice?,It might be a repetition. Please check if both have the same functionalities or consult the software documentation.
+How many leave types can I configure in Leave Master?,The software allows for multiple leave types
+Can I delete a leave type once created?,"Yes, but ensure that no pending or approved leaves are associated with that type before deletion."
+How do I set leave accrual rates?,Accrual rates might be set in another section of the software. Check the Leave Configuration or related modules.
+Can I assign different colors to different leave types?,"Yes, using the 'Leave Color' feature, you can assign unique colors to each leave type."
+What image formats are supported for 'Attach Leave Image'?,"Common formats like JPG, PNG, and GIF are supported, but check the software documentation for specifics."
+How do I ensure that certain leaves require manager approval?,"By setting the 'Validation is mandatory' option, you can enforce approval processes."
+Can I import leave types from another system?,This depends on HRMantra capabilities. Check the import/export options or consult the software documentation.
+How do I reorder the 'Preference Order'?,Simply edit the number in the 'Preference Order' field for each leave type.
+Can I customize the 'Leave Abbreviation'?,"Yes, you can set a unique abbreviation for each leave type."
+What happens if two leave types have the same 'Preference Order'?,The software might order them alphabetically or based on creation date. It's best to assign unique preference numbers.
+Can employees view the 'Leave Master' configurations?,"Only the administrators or HR personnel have access, but permissions can vary based on roles."
+How do I add a new leave type?,There should be an 'Add' or 'Create New' button on the Leave Master page.
+Can I set half-day or quarter-day leave configurations?,Yes
+What's the significance of 'File Id'?,"It's a unique identifier, ensuring that each leave type is distinct and easily trackable."
+Can I search for a specific leave type?,Yes
+How do I update the 'Leave Color'?,Click on the color box or picker next to the leave type and choose a new color.
+Can I use hex codes for 'Leave Color'?,Yes
+How do I view the image attached to a leave type?,"Click on the 'Attach Leave Image' icon or link, and the image should be displayed."
+Can I set different leave policies for different departments?,Yes
+What should I do if I encounter an error on the Leave Master page?,"Document the error, take a screenshot if possible, and contact your software support team."
+Can I export the leave configurations?,"Check the software's export functionalities, found in settings or admin sections."
+How do I set default leaves for new employees?,Check the Leave Structure page
+Can I set a maximum limit for each leave type?,Yes
+How do I rename 'Leave Abbreviation'?,Click on the specific leave type and edit the 'Leave Abbreviation' field.
+Can I merge two leave types?,Yes
+How do I differentiate between paid and unpaid leaves?,"You can use the 'Leave Name' or 'Leave Abbreviation' to indicate this, or there might be a specific setting in the software."
+Can I set automatic notifications for certain leave types?,Yes
+How do I restrict certain leave types to specific employee groups?,Check the leave structure page
+Can I view a history of changes made in Leave Master?,Yes
+Can I set a minimum tenure for employees to avail certain leaves?,Yes
+Can I customize the look of the Leave Master page?,Yes
+How do I set carry-forward rules for leaves?,Check the Leave Structure page
+Can I set a grace period for certain leave types?,Yes. Check the leave structure page
+How do I troubleshoot issues with the Leave Master page?,"Consult the software documentation, user manual, or contact the support team."
+Can I set automatic accruals for leave balances?,Yes
+How do I get more help or training on the Leave Master page?,Click on the ? on the top right corner of every page
+How do I set the 'Preference Order'?,The Preference Order determines the sequence in which leave types appear in listings. A lower number indicates a higher preference.
+How does the leave year affect leave accrual?,"The ""Leave Year Starts From"" date determines when employees' leave balances reset or accrue, based on the organization's policy."
+What does "Prohibit cancellation of approved leaves?" mean?,This feature allows the admin to restrict employees from cancelling leaves once they have been approved.
+How can I configure the "Leave Options"?,Leave Options provides you with various settings to customize the leave process as per the organization's policy. Navigate to the feature and choose the preferred settings.
+Can I set a custom start date for the "Leave Year"?,"Yes, using the ""Leave Year Starts From"" option, you can define the start date for the leave year in your organization."
+How do I select a specific employee group for leave settings?,Select Employee Group allows you to apply specific leave settings to a particular group of employees. Navigate to this option and choose the desired group.
+Are there different "Leave Options"?,"Yes, ""Leave Options"" can be found in multiple places offering varied functionalities. Ensure you are configuring the correct option based on your requirements."
+Is it mandatory to validate leave applications?,"The ""Validation Is Mandatory"" feature decides this. If turned on, all leave applications must go through a validation process before approval."
+Can employees apply for leave on the day they are present?,"If the ""Prohibit leave application on the day the employee is present?"" feature is enabled, employees cannot apply for leave on days they mark their attendance."
+Why do we need to take attendance data from the payroll module?,"Taking attendance data from the Payroll Module helps in decoding the attendance field value, ensuring seamless integration between attendance and leave modules."
+How does the "Prohibit cancellation of approved leaves?" feature benefit the organization?,"By prohibiting cancellation of approved leaves, organizations can maintain better roster management and avoid last-minute changes."
+Can I set multiple leave years?,"No, the ""Leave Year Starts From"" feature allows you to define a single start date which will determine the leave year for the organization."
+How do I change the "Leave Year Starts From" date?,Navigate to "Leave Year Starts From" and select the desired start date from the calendar dropdown.
+Are there predefined employee groups?,"Yes, under ""Select Employee Group"", you can choose from existing groups or create new ones as per your requirements."
+Can I customize the "Leave Options" further?,"Yes, ""Leave Options"" provides flexibility to adjust settings. Navigate through the options to make custom changes."
+What happens if "Validation Is Mandatory" is turned off?,"If turned off, leave applications might get auto-approved or won't need a validation process."
+Can an employee request an exception for applying leave on a present day?,"It depends on the organization's policy. If ""Prohibit leave application on the day the employee is present?"" is enabled, exceptions would need manual intervention."
+Why is attendance data integration important?,"It ensures that there's no discrepancy between attendance and leaves, providing a holistic view of an employee's presence and absence."
+Can I allow certain employee groups to cancel approved leaves?,"Yes, by configuring the ""Prohibit cancellation of approved leaves?"" and ""Select Employee Group"" settings, you can define exceptions."
+How does the "Leave Options" feature enhance employee management?,"It provides flexibility and control over leave policies, ensuring that both employee and organizational needs are met."
+Can I reset the leave year for specific employee groups?,"No, the ""Leave Year Starts From"" is a global setting applicable for all employees."
+How do I know which employee group a particular employee belongs to?,Navigate to the employee's profile or check under "Select Employee Group" to see group assignments.
+What if I need additional validation apart from the mandatory setting?,You would need to customize the leave application process or integrate third-party tools for additional validation.
+Can employees see these "Leave Options"?,"It depends on the permissions set by the admin. , ""Leave Options"" are admin-level settings."
+How does prohibiting leave application on a present day affect employees?,It ensures that employees plan their leaves in advance and reduces last-minute leave requests.
+Can I take attendance data from other modules apart from payroll?,"The current setting integrates with the Payroll Module. For other modules, You need custom integration."
+Can I override the "Prohibit cancellation of approved leaves?" for urgent scenarios?,"Yes, with the right admin permissions, manual interventions can override this setting."
+What is the default setting for "Leave Year Starts From"?,"The default may vary. , organizations set it to January 1st or the fiscal year start. Check your current setting in the module."
+How frequently can I change the "Leave Options"?,"As often as required. However, frequent changes might confuse employees. It's recommended to maintain consistency."
+"If ""Validation Is Mandatory"" is on, who validates the leave?","The immediate supervisor or HR validates the leave, but it depends on the organizational hierarchy set in HRMantra."
+How does HRMantra know if an employee is present?,"Through the attendance data, either entered manually, imported, or integrated from other modules like Payroll."
+How accurate is the attendance data decoding?,"It's highly accurate as it pulls data directly from the Payroll Module, ensuring no discrepancies."
+Is there a notification system for approved leaves?,", HRMantras have notification features. Check under ""Leave Options"" or related settings for notification configurations."
+Can I export the leave data?,"Yes, HRMantras offer data export functionality."
+Can I set different leave options for different employee groups?,"Yes, using the ""Select Employee Group"" feature, you can apply specific settings to different groups."
+How are holidays considered in the leave module?,"Holidays are managed in a separate section, but they integrate with the leave module to avoid discrepancies."
+Can employees apply for half-day leaves?,"This depends on the ""Leave Options"" settings. If allowed, employees can apply for half or partial-day leaves."
+How do I view leave history for an employee?,Navigate to the employee's profile and check the leave section or history tab. This might vary based on the software layout.
+What if the payroll module has incorrect attendance data?,Any discrepancies in the Payroll Module will reflect in the Leave Module. It's crucial to ensure accurate data in both modules.
+Can I assign multiple validators for leave applications?,You be able to set multiple validators under the "Validation Is Mandatory" or similar settings.
+How do I troubleshoot issues in the "Leave Options"?,"Consult the software documentation, seek support from the software vendor, or check any available logs for errors."
+Can an employee belong to multiple employee groups?,Yes
+How do I add new employee groups?,"Under ""Select Employee Group"", There is an option to create or add new groups. If not, check the main settings or documentation."
+Can I automate leave approvals for specific scenarios?,HRMantra systems offer automation based on criteria. Check under "Leave Options" or related settings for automation features.
+How do I integrate the payroll module for attendance data?,"The integration is   set up during the initial configuration. If changes are needed, navigate to settings or consult documentation."
+Can employees view their leave balance?,"Yes, employees have access to their leave balances, history, and other related details in their profiles."
+How do I reset the leave settings to default?,"HRMantra systems offer a ""Reset to Default"" option. If not, You need to manually revert changes or seek support."
+Can I set expiration dates for leaves?,Yes
+How do I know if "Validation Is Mandatory" is turned on?,Navigate to the "Leave Options" page and check the status of the "Validation Is Mandatory" setting.
+How frequently is attendance data pulled from the payroll module?,"This depends on the integration settings. It could be real-time, daily, weekly, monthly or based on a custom schedule."
+How do I seek support for the "Leave Options" module?,Check the help section in your HRMantra or contact the software vendor's support team for assistance.
+Does leave include weekly offs?,"Yes, weekly offs are included as part of leave if [Condition] is met."
+Is a fitness certificate mandatory for certain leaves?,"Yes, a fitness certificate is required for certain leaves as per [Policy]."
+Are employee contact details necessary for leave approval?,"Yes, employee contact details are required for leave approval if [Condition] is set."
+How is accumulated leave calculated?,Accumulated leave is calculated based on [Formula].
+Can leaves end before a weekly off day?,"Yes, leaves can end before a weekly off day if [Condition] is met."
+Can leave be credited only on public holidays or weekly offs?,"Yes, leave can be credited only on public holidays or weekly offs if [Condition] is met."
+Is it possible to start or end leave on a public holiday?,"Yes, you can start or end leave on a public holiday date if [Condition] is met."
+Can employees apply for leave credit?,"No, employees cannot apply for leave credit if [Condition] is set."
+How is leave entitlement determined if days exceed a limit?,Leave entitlement is determined based on [Formula] when days exceed the limit.
+What rule governs leave entitlement?,Leave entitlement is governed by [Rule].
+What happens to unused leaves at the end of the year?,Unused leaves are lapsed at the year-end if [Condition] is met.
+How are leave types named?,Leave types are named based on [Naming Convention].
+Is marital status considered for leave?,"Yes, marital status may affect leave eligibility as per [Policy]."
+How many leave encashment applications are allowed in a year?,The maximum number of leave encashment applications allowed in a year is determined by [Formula].
+What is the minimum duration for taking leave?,The minimum duration for taking leave is determined by [Formula].
+What is the suffix rule for weekly offs?,The suffix rule for weekly offs is [Rule].
+Can employees take leave when they have a negative balance?,"Yes, employees can take leave with a negative balance if [Condition] is met."
+Is it possible to start a new leave before the previous one ends?,"Yes, you can start a new leave before the previous one ends if [Condition] is met."
+How long is leave credit valid?,Leave credit is valid for [Number of Days] based on [Formula].
+How many leave applications are allowed in a year?,The maximum number of leave applications allowed in a year is determined by [Formula].
+What is the minimum number of days that can be encashed at once?,The minimum encashable days at a time is determined by [Formula].
+Is there a limit on the minimum and maximum leave duration?,"Yes, there are minimum and maximum limits for leave duration."
+What data type is used for indicating leave duration?,Leave duration is indicated using the data type "number" or "decimal."
+What is the prefix rule for public holidays?,The prefix rule for public holidays is [Rule].
+Are there any prefix rules for leave types?,"Yes, there are prefix rules for leave types, such as [Rule]."
+How is leave duration rounded off?,Leave duration is rounded off based on [Rounding Method].
+Can leaves end before a public holiday?,"Yes, leaves can end before a public holiday if [Condition] is met."
+Is leave displayable in workflow processes?,Leave is displayed in workflow processes based on [Formula].
+When does leave configuration become effective?,Leave configuration becomes effective on [Effective Date].
+Can employees encash their unused leaves?,"Yes, employees can encash their unused leaves if [Condition] is met."
+What is the value of a full-day leave?,The value of a full-day leave is [Value].
+How many days in advance can future leave be applied for?,Future leave can be applied from the present date up to [Number of Days] based on [Formula].
+What is the value of a half-day leave?,The value of a half-day leave is [Value].
+Can leave be adjusted during the notice period?,"Yes, leave can be adjusted during the notice period if [Condition] is met."
+How is the value of leave determined?,The value of leave is determined based on [Value Calculation].
+How is the total leave entitlement calculated for a year?,The total leave entitlement for a year is calculated based on [Formula].
+Is there a next step for configuring leave settings?,The next step for configuring leave settings is [Next Step].
+Can a new leave be applied immediately after the previous one ends?,"Yes, a different leave application can be applied immediately after the other leaves end."
+What method is used for calculating leave entitlement?,Leave entitlement is calculated using the [Calculation Method].
+Is leave displayed on employee pay slips?,"Yes, leave is displayed on employee pay slips if [Condition] is met."
+Are unused leaves carried forward to the next year?,"No, unused leaves are not carried forward if [Condition] is set."
+Are there exceptions to carrying forward leave?,Some leaves may not be carried forward as per [Policy].
+How is leave entitlement calculated up to a certain date?,Leave entitlement is calculated up to a certain date based on [Formula].
+Can excess leaves taken be recovered from future leaves?,"Yes, excess leaves availed can be recovered from future leaves if [Condition] is met."
+What is the time frame for leave approval?,Leave should be approved within [Number of Days] as per [Formula].
+What is the suffix rule for leave types?,The suffix rule for leave types is [Rule].
+Are there any additional rules for specific leave types?,"Yes, there are specific rules for certain leave types, such as [Rule]."
+How far in advance can leave be applied for?,Leave can be applied for up to [Number of Days] in advance based on [Formula].
+Is providing a reason mandatory when applying for leave?,"Yes, providing a reason is mandatory when applying for leave if [Condition] is set."
+Are there rules for sandwiching leave between two working days?,"Yes, there are sandwiching rules for leave as per [Policy]."
+What type of supporting documents are required for leave?,Supporting documents such as [Document Types] are required for leave approval.
+What does "to" indicate in leave configuration?,To indicates the end date of leave in the configuration.
+What action does clicking "Ok" perform in leave configuration?,Clicking "Ok" confirms and saves the leave configuration settings.
+When can employees apply for leave credit again?,Employees can apply for leave credit again within [Number of Days] as per [Formula].
+Can leave start after a public holiday?,"Yes, leave can start after a public holiday if [Condition] is met."
+Can leave be applied after a specific leave type?,"Yes, leave can be applied after a selected leave type if [Condition] is met."
+Are weekly offs and public holidays considered part of leave when availed between them?,"Yes, if leave is availed between a weekly off and a public holiday, they are included as part of leave."
+Is leave configuration applicable to specific employee groups?,"Yes, leave configuration can be applied to [Employee Groups]."
+Does leave affect an employee's pay?,"Yes, leave may affect an employee's pay based on [Pay Calculation]."
+Are there deductions for leaves shorter than a full day?,"Yes, deductions are applied if leave is less than a full day based on [Formula]."
+Which public holidays are included as part of leave?,The following public holidays are included as part of leave: [List of Holidays].
+Are public holidays considered part of leave?,"Yes, public holidays are considered part of leave if [Condition] is met."
+How is leave lapsed based on the leave period cycle?,Leave is lapsed based on the leave period cycle as defined in [Policy].
+What is the prefix rule for leave types?,The prefix rule for leave types is [Rule].
+How many leave applications are allowed in an employee's lifetime?,The maximum number of leave applications allowed in a lifetime is determined by [Formula].
+What is the maximum number of days that can be encashed at once?,The maximum encashable days at a time is determined by [Formula].
+What is the suffix rule for public holidays?,The suffix rule for public holidays is [Rule].
+Is there a preferred order for leave approval?,"Yes, there may be a preferred order for leave approval as per [Policy]."
+What formula determines the required supporting documents for leave?,The required supporting documents for leave are determined by [Formula].
+What is the overall structure of leave configuration?,The leave structure includes various settings and rules for managing leave.
+Can leave start after a weekly off?,"Yes, leave can start after a weekly off if [Condition] is met."
+Is leave configuration uniform for all employee groups?,"Yes, leave configuration can be applied to all employee groups if [Condition] is met."
+What rules govern leave crediting?,Leave crediting is governed by [Credit Rules].
+Can employees apply for leave after resignation?,"No, employees cannot apply for leave after the resignation date if [Condition] is set."
+What factors determine leave entitlement?,Leave entitlement may be based on factors such as [Criteria].
+How are public holidays treated in leave calculations?,Public holidays are included as part of leave if [Condition] is met.
+Is the leave configuration currently active?,"Yes, the leave configuration is currently [Active/Inactive]."
+How is leave lapsation calculated?,Leave lapsation is calculated based on [Formula].
+What is the maximum leave carry-forward allowed?,The maximum leave carry-forward is determined by [Formula].
+What is the maximum duration for taking leave?,The maximum duration for taking leave is determined by [Formula].
+How many leaves are allowed in a month?,The maximum number of leaves allowed in a month is determined by [Formula].
+What is the maximum number of leave days allowed in a month?,The maximum number of leave days allowed in a month is determined by [Formula].
+Are multiple conditions considered for leave configuration?,"Yes, multiple conditions may be considered using the logical operator ""OR."""
+Is the day of the week considered in leave calculation?,"Yes, the day of the week is considered for leave calculation based on [Condition]."
+What is the prefix rule for weekly offs?,The prefix rule for weekly offs is [Rule].
+Are there rules for sandwiching leave between weekly offs?,"Yes, there are sandwiching rules for leave between weekly offs as per [Policy]."
+Can leave be applied before another leave ends?,"Yes, leave can be applied before another leave ends if [Condition] is met."
+Can weekly offs be considered as the start or end date of leave?,"Yes, weekly offs can be considered as the start or end date of leave if [Condition] is met."
+Are there rules to prevent sandwiching between weekly offs and public holidays?,"Yes, anti-sandwiching rules apply if leave is found between weekly offs and public holidays."
+How many days in advance can future leave be applied for?,Future leave can be applied [Number of Days] in advance based on [Formula].
+Does an employee's gender affect leave eligibility?,"Yes, an employee's gender may affect leave eligibility as per [Policy]."
+Which weekly offs are included as part of leave?,The following weekly offs are included as part of leave: [List of Weekly Offs].
+Are both weekly offs and public holidays included as part of leave?,"Yes, both are included if [Condition] is met."
+What does it mean if the pattern is invalid in leave configuration?,An invalid pattern indicates that the leave configuration is incorrect or incomplete.
+What is the maximum number of leave days allowed in a year?,The maximum number of leave days allowed in a year is determined by [Formula].
+What is the rule for sandwiching public holidays in leave?,The rule for sandwiching public holidays in leave is [Rule].
+Is the expected delivery date displayed for maternity leave?,"Yes, the expected delivery date is displayed for maternity leave."
+Is validation mandatory when applying for leave?,"Yes, validation is mandatory when applying for leave if [Condition] is set."
+How can leave be specified for past or future dates?,Leave can be specified either for "past days leaves to be applied" or "before days for future leaves."
+Is there a "Previous" option for navigating leave configuration steps?,"Yes, you can navigate to the previous step in leave configuration using the ""Previous"" option."
+Can leave credit be applied only when employees work on public holidays and weekly offs?,"Yes, leave credit can be applied only when employees work on public holidays and weekly offs if [Condition] is met."
+Can leave be applied for an entire week at once?,"Yes, leave can be applied for the whole week if [Condition] is met."
+Are sandwiching rules applied for half-day leave with half-day working?,"Yes, sandwiching rules apply to half-day leave with half-day working as per [Policy]."
+Can leave configurations be specific to employee groups?,"Yes, leave configurations can be specific to [Employee Groups]."
+Are there extra deductions for certain types of leave?,"Yes, there may be extra deductions for certain types of leave as per [Policy]."
+Are there deductions for half-day leaves shorter than a certain duration?,"Yes, deductions are applied for half-day leaves shorter than [Formula]."
+Can weekly offs be considered as part of leave duration?,"Yes, weekly offs can be included as part of leave duration if [Condition] is met."
+What is the overall structure of leave configuration?,The leave structure includes various settings and rules for managing leave. (continued)
+What data type is used to indicate the number of leaves?,The data type "number" or "decimal" is used to indicate the number of leaves.
+What is the suffix rule for leave types?,The suffix rule for leave types is [Rule]. (continued)
+Can I adjust leave for employees on maternity or paternity leave?,"Yes, use the ""Employee Name"" feature to select the employee and make the necessary adjustments."
+What does the "Add / Reduce balance" feature do?,It allows administrators to manually increase or decrease an employee's leave balance.
+How can I view the leave history of an employee?,Navigate to the "Leave Balance & History" feature to view a comprehensive history of an employee's leave transactions.
+I see an error saying "Leave or leave structure not set". What does this mean?,This means that either the leave type hasn't been defined or the leave structure for the employee is missing.
+Why can't I set the adjustment days to zero?,"Adjustment days cannot be zero ensures that a meaningful adjustment is being made, whether it's adding or reducing leave days."
+Is it mandatory to validate the adjustments?,"Yes, ""Validation Is Mandatory"" to ensure that the adjustments are accurate and to prevent any errors."
+I'm seeing an error about checking leave master or structure. What should I do?,"Please verify if the leave master or leave structure is defined. Also, ensure the employee's personal details are accurate."
+Can I adjust the leave for a date in the past?,"Yes, using the ""Adjustment Date"" feature, you can specify a past date for which the leave adjustment should be applicable."
+How do I specify which employee's leave I'm adjusting?,Use the "Employee Name" field to select the employee for whom you are making the adjustment.
+Can I adjust leave for multiple employees at once?,"Yes, by selecting ""All Employees"", you can adjust leave for everyone at once."
+How do I specify the type of leave I'm adjusting?,Use the "Leave Name" dropdown to select the type of leave you're adjusting.
+What does the "Leave Adjustment" feature allow me to do?,"It lets you make manual adjustments to an employee's leave balance, whether adding or reducing days."
+Can I adjust leave for a future year?,"Yes, using the ""Leave Year"" feature, you can specify the year for which the leave adjustment should be applicable."
+How do I reduce an employee's leave balance?,Use the "Reduce Balance" feature to manually decrease an employee's leave days.
+Can I add remarks or notes when adjusting leave?,"Yes, the ""Remarks"" field allows you to add any notes or comments related to the leave adjustment."
+How do I add to an employee's leave balance?,Use the "Add balance" feature to manually increase an employee's leave days.
+Can I see who made a specific leave adjustment?,"Yes, the ""Adjusted By Employee Name"" will display the name of the person who made the adjustment."
+How do I specify the number of days for adjustment?,Use the "Adjustment Days" field to input the number of days you wish to add or reduce.
+Can I add remarks for all employees when adjusting leave for everyone?,"Yes, use the ""Remarks"" field to add a general note or comment that will apply to the adjustment for all employees."
+How do I ensure accuracy when adjusting leave?,Always validate the adjustments using the "Validation Is Mandatory" feature before finalizing.
+Can I undo a leave adjustment?,", to undo an adjustment, you'd have to make a counter-adjustment. Check HRMantra specific functionalities for details."
+Can I view all past adjustments made for an employee?,"Yes, the ""Leave Balance & History"" feature provides a detailed log of all past leave transactions and adjustments."
+How do I handle errors related to leave structures?,Ensure that the leave master or leave structure is defined and that employee personal details (like gender and marital status) are correct.
+What happens if I adjust leave for "All Employees"?,The specified adjustment will be applied to the leave balance of every employee in HRMantra.
+Can employees view the remarks added during adjustment?,"Depending on your software settings, employees may or may not be able to view the remarks. Check HRMantra documentation."
+Can employees adjust their own leave balance?,", only administrators or HR personnel can adjust leave balances. Employees can request adjustments if needed."
+How do I know if an adjustment was successful?,"After validation and saving, the software should provide a confirmation message or update the ""Leave Balance & History"" accordingly."
+Why might an employee's leave balance not match the expected amount?,"It could be due to manual adjustments, leave taken but not recorded, or errors in the leave structure. Always validate before finalizing."
+Can I export the leave adjustment history?,there might be an export feature in the "Leave Balance & History" section. Check HRMantra documentation.
+Why is validation mandatory for leave adjustments?,"Validation ensures accuracy, prevents errors, and maintains the integrity of leave data in HRMantra."
+How do I handle adjustments for employees who have left the company?,", you shouldn't adjust leave for ex-employees. If needed, consult with HR or use the ""Employee Name"" feature to select the ex-employee."
+"Can I set automatic leave adjustments, e.g., yearly increment?",This depends on HRMantra capabilities. Check HRMantra documentation or settings for auto-adjustment features.
+How do I handle negative leave balances?,Use the "Add / Reduce balance" feature to adjust accordingly. Consult with HR for policies regarding negative leave balances.
+Can I adjust leave for a specific department or team?,"The ""All Employees"" feature adjusts for everyone. For specific teams, you'd need to adjust individually or check HRMantra supports group adjustments."
+Is there an audit trail for leave adjustments?,"Yes, the ""Leave Balance & History"" should provide a detailed log of all adjustments made, including who made them and when."
+How do I handle errors when adjusting leave?,"Always validate adjustments. If errors persist, consult HRMantra documentation or support team."
+How do I know which leave type to adjust for an employee?,Consult with HR or the employee to determine the correct "Leave Name" before making adjustments.
+Can managers adjust leave for their team members?,"Depending on software settings and permissions, managers might be able to adjust leave for their direct reports."
+What should I do if I accidentally adjust the wrong leave type?,"Make a counter-adjustment to correct the error, then adjust the correct leave type. Always validate adjustments before finalizing."
+Can I schedule leave adjustments to be made at a specific time?,This depends on HRMantra capabilities. Check HRMantra documentation or settings for scheduled adjustment features.
+How do I handle employees with custom leave structures?,"Use the ""Employee Name"" feature to select the employee, then adjust based on their unique leave structure. Validate before finalizing."
+Can employees dispute or challenge leave adjustments?,", employees can raise concerns or requests regarding their leave balance. The resolution process would be as per HR policies."
+How frequently should I validate leave balances?,"Regular validation, especially after manual adjustments, ensures accuracy and data integrity."
+Can I view a summary of all leave adjustments made in a specific period?,The "Leave Balance & History" should allow you to filter and view adjustments made during a specified timeframe.
+How do I adjust leave for part-time employees or those with non-standard working hours?,"Use the ""Employee Name"" feature to select the employee, then adjust based on their working hours or structure. Validate before finalizing."
+What should I do if I encounter technical issues while adjusting leave?,Consult HRMantra documentation or contact the support team for assistance.
+Can I adjust leave in bulk using a CSV or Excel file?,This depends on HRMantra capabilities. Check HRMantra documentation for bulk adjustment features or integrations.
+How do I handle leave adjustments for employees on long-term sick leave?,Consult with HR for policies regarding such adjustments. Use the "Employee Name" feature to select the employee and adjust accordingly.
+Can I set permissions for who can adjust leave balances?,"Yes, software allows you to set permissions. Only authorized personnel, like HR or managers, should have adjustment rights."
+What precautions should I take when adjusting leave balances?,"Always validate adjustments, ensure you're adjusting the correct leave type for the correct employee, and consult with HR when in doubt."
+What is the purpose of the "Reversed Year End Process"?,"This feature allows you to undo the year-end process for leave balances, effectively reverting any changes made during that process."
+How do I use the "Stop" feature?,The "Stop" feature allows you to halt any ongoing processes related to leave balances. Simply click on "Stop" to initiate.
+How is the "To date" used in leave calculations?,To date refers to the end date for which you want to view or calculate the leave balances.
+How are "Total leaves in the year" calculated?,This represents the total number of leaves an employee is entitled to in a given year.
+How is the "Leave opening balance" determined?,This is the number of leaves an employee has at the beginning of a year or period.
+How will I know if the "Reversed Year End Process" has been updated?,You'll see a notification or status change indicating that the process has been successfully reversed and updated.
+How is the "Available leaves (As on date)" calculated?,"It's calculated as (A+B+C)-(E+F), where each letter corresponds to a specific leave parameter."
+What does "Carry Forward (Previous Period)" mean?,It represents the leaves from the previous period that are carried forward to the current period.
+How are "Leaves Lapsed" determined?,Leaves that aren't used within their validity period will lapse. This feature shows the number of such leaves.
+How is "Previous Year Balance" different from opening balance?,"Previous Year Balance refers to the total leaves at the end of the last year, while ""opening balance"" is the starting count for the current year."
+Why can't I update the "Year End Process"?,"Once the year-end process is finalized, it cannot be altered to maintain data integrity."
+Why do I need to save these dates?,These dates are essential for calculating leave entitlements and other related functionalities.
+What does the "Show" feature do?,It allows you to view specific details or records related to leave balances.
+How is "Accounting From Date" used?,It's the start date from which leave calculations or records are considered for any given period.
+What are "Formula Decoded Heads"?,These are specific parameters or categories used in the leave calculation formula.
+How does the "Year End Process" work?,"It's a process that finalizes leave records at the end of the year, including carry forwards and lapses."
+What does "As on date" mean?,It refers to the specific date for which you're viewing or calculating the leave balance.
+How is this different from "Previous Year Balance"?,"It refers to the leave balance at the end of any given period, not just the year."
+How is this calculated?,It represents the total leaves an employee is entitled to from the start of the year up to the current date.
+How does "Gender" impact leave calculations?,Some organizations have gender-specific leave policies. This feature ensures accurate leave calculations based on gender.
+Why is the "Group joining date" important?,"It's the date when an employee joined a specific group or department, which might affect their leave entitlements."
+How does "Joining Date" affect leave calculations?,"Leave entitlements often depend on the duration of employment, making the joining date crucial for accurate calculations."
+What does this mean?,It indicates that the leave data is being processed. You can check the progress by clicking on "process status".
+How often is the "Year End Process" updated?,"It's updated once a year, but this might vary based on organizational policies."
+Why am I seeing this message?,This message appears when an invalid or inappropriate date is entered. Ensure you're entering dates in the correct format and range.
+What does this mean?,It indicates that there's no ongoing process that can be halted using the "Stop" feature.
+Why am I seeing this prompt?,"It's a confirmation message to ensure you want to continue with the selected action, especially if it's irreversible."
+Why can't I run the process?,"Some processes, once initiated, cannot be run simultaneously or repeatedly until they're completed or stopped."
+How do I initiate the "Year End Process"?,Click on this option to start the year-end leave calculations and finalizations.
+What's the significance of "Accounting To Date"?,It's the end date up to which leave calculations or records are considered for any given period.
+How is this different from "Available leaves (As on date)"?,"It's the total leave balance on a specific date, considering all additions and deductions."
+How is this calculated?,"It includes all leaves taken by an employee, including those that are yet to be approved."
+What does "Manually Adjusted" mean?,It refers to any changes made to the leave balance that weren't a result of the standard leave-taking process.
+How does this feature work?,It initiates a specific process or calculation for all employees in HRMantra simultaneously.
+Why is the "Last Working Date" important?,"It's the most recent date an employee worked, which can affect leave calculations, especially for those who've left the organization."
+What does this mean?,It indicates that there's no history of reversing the year-end process for the selected period or employee.
+How is "Leave Name" used?,"It's the specific type or category of leave, e.g., ""Sick Leave"", ""Vacation"", etc."
+What happens during the "Leave Year End"?,"It's when all leave records for the year are finalized, including calculations of carry forwards and lapses."
+Is this different from "Run For All Employees"?,It's similar but might have specific nuances based on HRMantra functionality.
+Why am I seeing this message?,"This message appears when you're trying to initiate a process that requires at least one employee to be selected, but none have been chosen."
+What does this mean?,It indicates that an ongoing process has been halted successfully upon your request.
+How is "Confirmation Date" used in leave calculations?,It's the date when an employee's probation ends and might affect their leave entitlements.
+How is the "From date" used in leave calculations?,It's the start date from which you want to view or calculate the leave balances.
+How is this determined?,It shows the number of leaves that will lapse at the end of the year if not used.
+How does "Marital Status" impact leave calculations?,"Some organizations have leave policies based on marital status, e.g., marriage leave or paternity leave."
+Why is this important?,The "As on date" should always be after the "Joining Date" to ensure accurate leave calculations.
+How can I track the progress?,Click on "process status" to see the real-time progress of the data processing.
+Why can't I update after the year-end process?,"To maintain data integrity, once the year-end process is finalized, it cannot be altered."
+What constitutes a valid date?,A date that falls within the permissible range and is in the correct format is considered valid.
+What should I do next?,"If you intended to stop a process, ensure that the process was running in the first place or check if it has already completed."
+What does "Track Status" allow me to do?,Track Status allows you to monitor the current state of your leave credit application in real-time.
+How does the "All Employees" feature work?,"The ""All Employees"" feature displays a list of all employees in the organization, allowing you to view their leave credit status."
+What is meant by "Applied Days"?,Applied Days refers to the number of days an employee has requested for leave credit.
+How is the "Credited Date" different from the "Application Date"?,"Credited Date is when the leave was actually credited to the employee's account, while ""Application Date"" is when the employee applied for leave credit."
+Can I view previous leave credit requests using "Credit Application History"?,"Yes, the ""Credit Application History"" shows a log of all past leave credit applications made by the employee."
+What does "Is validate Entry As Per Rule" mean?,It checks if the leave credit application adheres to the organization's leave policies and rules.
+How do I know how much leave has been credited?,The "Leave Credited" feature displays the amount of leave that has been added to the employee's account.
+Who is currently processing my application?,Pending with shows the person or department currently reviewing your leave credit application.
+How does the "Select All" feature work?,"Select All allows you to select all entries or records displayed on the page at once, useful for bulk actions."
+Can I view who has approved my application in the past?,"Yes, the ""Approver History"" provides a log of all individuals who have approved or reviewed your application."
+How do I add remarks to my leave application?,Use the "Leave Remark" feature to add any additional notes or comments to your application.
+What is the purpose of "Quick Approval"?,Quick Approval allows managers or HR to rapidly approve leave credit requests without navigating through multiple pages.
+What information does the "Session Name" provide?,Session Name indicates the specific session or time period for which the leave credit is being applied.
+Can you explain the "SP CASE" feature?,"SP CASE is a special case scenario for leave credit, which might be outside the regular leave policies."
+What does "Escalation Remark" mean?,Escalation Remark provides notes or reasons when a leave credit application is escalated to higher authorities for review.
+How can I determine the escalation status of my application?,The "Escalation Status" feature indicates whether an application has been escalated and its current state in the escalation process.
+What does the "Send To" feature do?,Send To allows you to forward or redirect the leave credit application to another individual or department for review or action.
+What information does "Sr. No." provide?,"Sr. No. is the serial number or unique identifier for each leave credit application, helping in easy tracking."
+Why can't I modify my application?,"If you see the message ""The application is in escalation process so it cannot be modified now,"" it means your application is under review at a higher level and cannot be edited."
+What does the "Apply" button do?,The "Apply" button is used to submit a new leave credit application or to save changes made to an existing one.
+How can I view past applications and their statuses?,Use the "View History" feature to see a log of all your past leave credit applications and their respective outcomes.
+What do "Leave Abbreviation" and "Leave Type" indicate?,"Leave Abbreviation is a short form for the type of leave, while ""Leave Type"" gives a detailed description, e.g., Paid Leave, Sick Leave, etc."
+What's the difference between "Credited Days" and "Credited Hours"?,"Credited Days refers to the number of full days of leave credited, while ""Credited Hours"" gives the leave credit in hours, useful for partial-day credits."
+What is meant by "Part Of Day"?,Part Of Day indicates if the leave credit is for a full day or just a portion of the day.
+How can I view applications that are yet to be processed?,The "Pending Application" feature shows a list of all leave credit applications that are awaiting approval or action.
+How do I understand "Credit Days"?,Credit Days displays the total number of days for which leave has been credited to the employee's account.
+Why is it important to validate an entry?,Validating an entry using "Is validate Entry" ensures that the application aligns with organizational rules and avoids potential errors.
+Why do I need to provide a "Reason" for my application?,Providing a "Reason" helps the approver understand the context of the leave credit request and aids in faster processing.
+What is the main purpose of the "Leave Credit Application" page?,"This page allows employees to apply for leave credits, and for managers or HR to review, approve, or decline such applications."
+Why am I seeing the "Check Escalation Is Not Set" message?,This message indicates that escalation settings or rules have not been defined for the current leave credit application.
+What does "Please define Leave master or Leave structure AS Credit Base for employees leave group" mean?,"This prompt indicates that the master settings or foundational rules for leave credits, specific to employee groups, need to be set up or defined."
+Can I add additional notes to my application?,"Yes, use the ""Application Remarks"" feature to add any supplementary notes or comments."
+What does "Credit Leave Date" signify?,Credit Leave Date is the date when the leave was officially added or credited to the employee's account.
+Can I comment on someone's leave application?,"Yes, the ""Comment"" feature allows you to add feedback or notes on any leave credit application."
+How can I determine the current state of an application?,"Use the ""Status"" feature to view the current state, e.g., Approved, Declined, Pending, of a leave credit application."
+What is "Leave Credit Approval"?,Leave Credit Approval refers to the process where a manager or HR reviews and approves or declines a leave credit application.
+Can I manually enter leave credits for an employee?,"Yes, the ""Leave Credit Manual Entry"" feature allows HR or managers to manually add leave credits to an employee's account."
+How can I quickly approve multiple applications?,Use the "Select" feature to select multiple applications and then utilize the "Quick Approval" option for rapid approval.
+What does "Escalation Status" indicate?,Escalation Status shows whether an application has been escalated for higher review and its current state in that process.
+What do I need to know about "Leave Remark"?,Leave Remark is a feature where employees or managers can add notes or comments about the leave credit application.
+Why is it important to validate entries?,Validating entries using "Is validate Entry" ensures data accuracy and alignment with organizational leave policies.
+What does "Application Status" show?,"Application Status displays the current state of a leave credit application, e.g., Approved, Pending, Declined."
+How do I understand "Leave Abbreviation"?,"Leave Abbreviation is a shorthand or acronym for the type of leave being credited, e.g., PL for Paid Leave."
+Can I see the total hours credited for a leave?,"Yes, the ""Credited Hours"" feature displays the total hours of leave credited to an employee's account."
+Why would an application be a part of a day?,"If an employee requests leave credit for just a few hours or half a day, it's considered as ""Part Of Day""."
+How do I check if an application is pending approval?,Use the "Pending Application" feature to view all applications that are yet to be approved or declined.
+Why might I see the message "The application is in escalation process so it cannot be modified now"?,"This message appears when an application has been escalated for higher review, and any modifications are locked during this process."
+How can I view the complete history of an application?,Use the "View History" option to see a detailed log of actions and statuses for a particular leave credit application.
+Why is the "Leave Type" important?,"Leave Type provides details about the kind of leave being requested or credited, helping in proper categorization and processing."
+What does the "Credit Days" feature show?,Credit Days displays the total number of days for which leave has been credited to an employee's account.
+How do I calculate leave encashment?,You can calculate leave encashment using the "Calculate" feature within the application.
+How can I apply for leave encashment?,"To apply, click on ""Apply Now"" and follow the application process."
+Where can I check my leave balance as of a specific date?,Use the "Balance as on date" feature to view your leave balance as of a specific date.
+How do I calculate leave encashment on a monthly basis?,You can use the "Calculate As Per Month" feature for monthly leave encashment calculations.
+What is the "Carry Forward (Previous Period)" feature used for?,It helps you carry forward unused leave from the previous period.
+Where can I see the number of days available for encashment?,Check the "Days To Encash" feature for this information.
+What is the significance of "Group Join Date" and "Join Date"?,These dates determine your eligibility for leave encashment.
+How can I view the leave I've used so far?,Leave Used and "Leave Used (Including Pending Leave)" provide this information.
+How do I know the status of my leave encashment application?,You can check the "Status" to track your application's progress.
+What is "Available Leaves (As On Date)"?,It represents your available leaves as of a specific date after deductions.
+Where can I find my closing balance from the previous period?,Look for "Closing Balance (Previous period)" to view this data.
+What is the purpose of "Encash Remark" field?,You can add remarks or notes related to your leave encashment.
+How can I check my entitlement till date?,Use the "Entitlement Till Date" feature to see your entitlement information.
+What does the "Is Validate Entry As Per Policy" option do?,It validates your entry against company leave policies.
+What is "Leave Abbreviation" used for?,It provides abbreviations for different leave types.
+When would I manually adjust leave (C)?,You can use "Manually Adjusted (C)" to make manual adjustments to your leave balance.
+How do I know if my leave was paid in a specific period?,Check "Paid In Period" for information on paid leave periods.
+Where can I send my leave encashment application to?,You can specify the recipient in the "Send To" field.
+What is "Separation Date" for?,It's used to determine leave eligibility in case of employee separation.
+How do I specify the leave encashment type?,Use the "Encashment Leave Type" field for this purpose.
+How can I track pending leave encashment applications?,Look for "Pending Application" to see pending applications.
+How do I select multiple entries at once?,Use "Select All" to select all entries at once.
+Where can I check the status and remarks for my application?,You can find this information in "Self Status And Remark" and "Approver Status and Remark."
+What are "Encashable Leaves" and "Encash Amount"?,These fields show the leaves eligible for encashment and the corresponding amount.
+How can I view my entitlement till a specific date?,Use "Entitled Till Date" and specify the date.
+Where do I enter the starting date for leave encashment?,Input the date in the "From Date" field.
+What happens to leaves that have lapsed due to validity?,Leaves Lapsed (Incase of validity) displays this information.
+How do I select specific entries?,Use the "Select" option to choose individual entries.
+What is "Leave Encashment Application" for?,It's the main section for leave encashment application submission.
+How do I exempt a certain amount from encashment?,Enter the amount in "Amount Exempt."
+How can I calculate leave encashment based on a specific period?,Use the "Calculate As Per Period" feature and specify the period.
+Where can I find the confirmation date for my application?,Look for "Confirmation Date" for this information.
+What does "Current Year Entitlement Till Date (B)" represent?,It shows your entitlement for the current year up to a specific date.
+How can I view a list of application statuses?,Use "Status List" to see a list of application statuses.
+What should I do if my leave has lapsed?,Check "Leave Lapsed" for information on lapsed leaves.
+How can I track my leave usage?,Leave Used and "Leaves Balance" provide information on leave usage and balance.
+What is the daily wage for leave encashment?,Leave Wages Per Day displays the daily wage for encashment.
+How can I quickly approve a leave encashment application?,Use "Quick Approval" for swift application approval.
+What information should I provide in the "Reason" field?,Enter the reason for your leave encashment application.
+Where can I check the status of leave encashment approvals?,Leave Encashment Approval displays approval statuses.
+What is the "Application date" used for?,It signifies the date of your leave encashment application.
+How do I check my leave balance up to a specific date?,Use "Balance Till Date" and specify the desired date.
+How can I add comments to my application?,Enter comments in the "Comment" field.
+Where can I find details about my encashment?,Look for "Encashment Detail" for detailed encashment information.
+How can I check the escalation status of my application?,Use "Escalation Status Name" for escalation status information.
+What is "Leave End Year" for?,It signifies the end of the leave year for encashment purposes.
+How can I view my total leave in a year?,Check "Total Leave In Year" for this information.
+Where can I view the balance details of my leave?,Use "View Leave Details Balance" for leave balance details.
+How do I confirm if escalation is not set for my application?,Check "Check Escalation Is Not Set" for this confirmation.
+How do I submit my leave encashment application?,Click on "Submit" to submit your application for processing.
+How do I apply for leave?,You can apply for leave by clicking on the "Apply Now" button on the Leave Application page.
+How can I view the approval history of my leave application?,"To view the approval history, click on the ""Approver History"" option on the Leave Application page."
+How can I delete a leave application?,"You can delete a leave application by confirming your decision when prompted with the message, ""Are you sure you want to delete this application?"""
+How do I attach a fitness certificate to my leave application?,"When applying for leave, you can attach a fitness certificate by using the ""Attach Fitness Certificate"" feature provided on the page."
+Where can I check my available leaves as of a specific date?,You can check your available leaves as of a specific date by using the "Available Leaves As On Date" feature on the Leave Application page.
+Can I carry forward unused leaves to the next year?,The "Carry Forward" feature allows you to carry forward unused leaves to the next year.
+How can I check the escalation status of my leave application?,"To check the escalation status, you can use the ""Escalation Status List"" feature on the Leave Application page."
+How do I select leave details when applying for leave?,You can select leave details using the "Select Detail" option on the Leave Application page.
+How can I view the leaves I've already utilized?,You can view the leaves you've utilized in the "Utilized" section of the Leave Application page.
+Can I delete a leave application after submission?,"You can delete a leave application after submission by confirming your decision when prompted with the message, ""Are you sure you want to delete this application?"""
+What is meant by "As per leave structure"?,As per leave structure refers to the rules and guidelines defined in your organization's leave policy. It may affect your leave application based on those rules.
+When do I need to attach a supporting medical document?,You will need to attach a supporting medical document when it is required according to your organization's leave policy.
+Is there a limit to the number of leaves I can take in a lifetime?,"Yes, there may be a limit to the number of leaves you can take in a lifetime, depending on your organization's leave policy."
+Can I apply for leave for a date beyond my retirement date?,"No, the ""Leave Application Date"" cannot be after your retirement date."
+Can I apply for leave after the leave year has ended?,You cannot apply for leave if the leave year has ended.
+How can I attach documents to my leave application?,You can attach documents to your leave application using the "Attach Documents" feature on the page.
+What information is required in the "Leave Name" field?,"In the ""Leave Name"" field, specify the type of leave you are applying for, such as sick leave or vacation leave."
+How can I check who the leave application is pending with?,You can see who the leave application is pending with by checking the "Pending With" field on the Leave Application page.
+Can I add remarks to my leave application?,"Yes, you can add remarks to your leave application."
+How do I select a leave type when applying for leave?,You can select a leave type from the available options using the "Select" or "Select All" feature on the Leave Application page.
+What is the "Days from leave date" field for?,The "Days from leave date" field may be used for specifying the number of days for your leave application.
+Why do I receive an error when trying to apply for leave with a total of 0 days?,The total leave days application should be greater than 0. Make sure you have specified the correct number of leave days.
+What does "On" mean in the context of leave application?,On is used to specify a particular date for your leave application.
+Why am I not allowed to apply for past leaves?,You cannot apply for past leaves because the leave application date should be in the future.
+Can I apply for leave too early in advance?,"No, you cannot apply for leave too early in advance."
+What is the "Application date" field for?,The "Application date" field is for specifying the date on which you are submitting your leave application.
+How do I update my contact and address information for leave?,You can update your contact and address information on the "Contact & Address" section of the Leave Application page.
+Is it possible to apply for leave after the separation date?,"No, the ""Leave Application Date"" cannot be after your separation date."
+Can I apply for leave before my join date?,"No, the ""Leave Application Date"" cannot be before your join date."
+What does "period" refer to in the context of leave application?,Period may refer to the duration or time frame for which you are applying for leave.
+Why should I check the date and shift before applying for leave?,It is important to check the date and shift to ensure that your leave application aligns with your work schedule and the organization's policies.
+Can I select an employee on leave as my backup?,"No, you cannot select an employee on leave for the same period as your backup."
+Why do I see an error message mentioning a leave limit has been exceeded?,"The error message indicates that you have already applied for leave for a certain number of days within a specific time frame, and it exceeds the limit defined by your organization's leave policy."
+How far in advance can I apply for leave?,You can apply for leave before a certain number of days as per your organization's policy.
+Why can't I apply for leave after the year-end processing is done?,"You cannot apply for leave after the year-end processing is done because the leave year has been closed, and no further applications are allowed for that year."
+How can I confirm that all supporting documents have been submitted with my leave application?,You can confirm that all supporting documents have been submitted by checking the "All Supportings Submitted" status on the Leave Application page.
+What information is available in the "Due Date" field?,The "Due Date" field may contain the deadline or due date associated with your leave application.
+What is the "Comp-Off Expiry Date"?,The "Comp-Off Expiry Date" specifies the date until which you can use your compensatory off leave.
+How can I check my current year entitlement until a specific date?,You can check your current year entitlement until a specific date by using the "Current Year Entitlement Till Date" feature on the page.
+What does "Lapsed Days" refer to in leave context?,Lapsed Days refers to the number of days of leave that have expired or lapsed without being utilized.
+What are "Leave Reasons" and "Leave Remarks" fields for?,"The ""Leave Reasons"" field is used to specify the reasons for taking leave, while the ""Leave Remarks"" field can be used for additional comments or explanations regarding your leave application."
+What is the significance of "Leave Days" and "Day Type" fields?,"Leave Days indicates the number of days you are requesting for leave, and ""Day Type"" may specify whether it's a full day or a half-day leave."
+How can I enter leave manually if needed?,You can manually enter leave details using the "Manual Leave Entry" feature on the Leave Application page.
+Why am I asked to contact my HR Business Partner for clarification?,"If you do not have sufficient leave balance, you may be asked to contact your HR Business Partner for further clarification or to discuss alternatives."
+Why should I verify the leave structure for the selected leave type?,Verifying the leave structure ensures that your leave application complies with the rules and requirements specific to the selected leave type.
+What should I do if the total number of leave applications in a year has been exceeded?,"If you have already applied for leave exceeding the annual limit, you may need to reconsider your leave plans or seek approval for exceptions."
+Can I apply for leave even if my attendance period has been closed?,"No, if the attendance period has been closed, you cannot modify your leave application."
+What does it mean when the application is in escalation process?,"When the application is in escalation process, it indicates that the request is being forwarded to higher authorities for approval. Modifications to the application may not be possible during this stage."
+Is there a limit to the maximum number of days I can apply for leave?,"Yes, there may be a maximum limit to the number of days you can apply for leave, as defined by your organization's leave policy."
+Why can't I withdraw my leave application even though my balance is maximum?,You cannot withdraw your leave application if your leave balance is already at its maximum because you have no additional leave days to credit back.
+How do I approve a leave application?,"To approve a leave application, use the ""Leave Approval"" feature on the page and follow the approval workflow specified by your organization."
+How can I check if all supporting documents have been submitted for a leave application?,You can check if all supporting documents have been submitted by reviewing the "All Supportings Submitted" status on the Leave Application page.
+What is the significance of "Comp-Off Date" in leave context?,Comp-Off Date refers to the specific date for which you are applying for a compensatory off leave.
+How can I view the escalation remarks for my leave application?,You can view the escalation remarks in the "Escalation Remark" section on the Leave Application page.
+What information does the "Expected Delivery Date" field contain?,The "Expected Delivery Date" field may contain the estimated date of delivery for a leave application related to maternity or paternity leave.
+What is the purpose of the "Reference Code" field?,The "Reference Code" field may be used for adding a unique identifier or reference to your leave application.
+How do I specify the day of the week for my leave application?,You can specify the day of the week by using the "Week Day" option when applying for leave.
+What happens if my applied leave days exceed my current leave balance?,"If your applied leave days exceed your current leave balance, you may need to revise your leave application or seek approval for the additional days."
+When do I need to attach a supporting medical document for my leave application?,You need to attach a supporting medical document when it is a requirement based on your organization's leave policy.
+What should I do if there is no defined shift for my leave application?,"If there is no defined shift for your leave, you should contact your HR or leave administrator for guidance and clarification."
+Why am I seeing an error message when trying to apply for leave?,"Error messages may appear for various reasons, such as incomplete information or policy violations. Review the specific error message to understand the issue and take appropriate action."
+How can I validate my leave application as per the rules?,You can validate your leave application as per the rules using the "Validate As Per Rule" feature provided on the Leave Application page.
+Why can't I modify an application that is in the escalation process?,Applications in the escalation process cannot be modified because they are being reviewed by higher authorities. You may need to wait for approval or contact the relevant person for assistance.
+Can I apply for a minimum number of leave days?,"Yes, you can apply for a minimum number of leave days based on your organization's leave policy."
+Is there a maximum limit to the number of leave days I can apply for?,"Yes, there may be a maximum limit to the number of leave days you can apply for, depending on your organization's leave policy."
+Why can't I approve a leave application?,"You may not be able to approve a leave application for various reasons, such as policy violations or lack of permissions. Review the specific error message or consult with your HR department for assistance."
+Why am I being informed that I have already applied for cancellation?,The message indicates that you have already initiated the process of canceling a previously submitted leave application.
+What is the 'Created On' feature used for?,This displays the date and time when a particular record was created.
+How can I view 'Target Field Name'?,The 'Target Field Name' displays the designated fields in your HRMantra to which the imported data will map.
+How does the 'Leave History Imp-Exp' work?,This feature allows users to import and export leave history data for analysis and backup purposes.
+What's the role of 'Mapping Name'?,This represents the title or name given to a particular set of mapping rules between the source and target fields.
+What do you mean by 'Source Field Name'?,The 'Source Field Name' indicates the field names in the source file from which data will be imported.
+How can I add a new rule for data import?,Click on 'Add new rule and import' to define and apply new mapping rules.
+How do I start the import process?,Simply click on the 'Import' button to begin the data importation.
+Can I see when a file was imported?,"Yes, the 'Imported Date' feature shows the date when a file was last imported."
+Where can I view the imported files?,Navigate to 'Imported File' to see a list of all imported files.
+How can I check my import history?,"By clicking 'View Import History', you can review a log of all your past imports."
+Where do I define field mappings?,The 'Mapping' section lets you define how data from the source file will map to your HRMantra.
+What is 'Page Info Type'?,It represents metadata or categorical information about the current page.
+Can I adjust leaves using this tool?,"Yes, use 'Leave Adjustment Imp-Exp' to make adjustments to leave records."
+How can I upload a file?,Click on 'Click to upload Or Drag drop file here' and choose the file from your device or drag it to the designated area.
+Is there a limit to the file size I can upload?,"Yes, refer to 'Maximum File Size' for the allowable limit for upload."
+Can I export a template for data input?,"Yes, click 'Export Template' to download a predefined format for data input."
+Where can I see the leave balance at the end of the year?,Navigate to 'Leave Closing Balance Of The Year' for this data.
+What are 'Mapped Rules'?,These are predefined rules that determine how source data maps to target fields in the HRMantra.
+Can I view the opening balance of leaves?,"Yes, the 'Leave Opening Bal Imp-Exp' shows the leave balance at the start of the year."
+What does 'Show' do?,It displays specific details or records based on the chosen filters or criteria.
+How can I view mapping history?,Click on 'View Mapping History' to see a log of all changes made to field mappings.
+Are there specific file types allowed for upload?,"Yes, refer to 'Allowed File Extensions' for the list of permitted file types."
+What's 'Info Type'?,It provides additional metadata or classification information about a particular data set or record.
+How does 'Leave Credit Imp-Exp' function?,"It allows users to import and export credit leave records, facilitating easy data management."
+Why is validation mandatory?,"Validation ensures data consistency, accuracy, and integrity when importing or exporting data."
+Can I see the employee's name associated with a record?,"Yes, refer to the 'Employee Name' feature."
+How do I know when data was exported?,The 'Date Imported' feature displays the timestamp of when data was last exported.
+What does 'Export Template' do?,It provides a standard format to help users structure their data correctly before importing it into HRMantra.
+How does the 'Validation Is Mandatory' feature work?,"This ensures that all data must pass specific validation rules before it can be imported, ensuring data quality."
+What's the difference between 'Source Field' and 'Source Field Name'?,"Source Field' is the actual data column from the source file, while 'Source Field Name' is the label or name of that column"
+How can I adjust the leave balance for an employee?,Navigate to the 'Leave Adjustment Imp-Exp' to make necessary changes to an individual's leave records.
+Is there a specific file format I need to adhere to while importing?,"Yes, refer to 'Allowed File Extensions' to check the supported file types for import."
+Can I view the mapping changes made over time?,"Yes, the 'View Mapping History' option provides a historical view of all changes made to the mapping rules."
+What happens if I upload a file that exceeds the 'Maximum File Size'?,"HRMantra will display an error, and the upload will be unsuccessful. Ensure your file is within the specified limit."
+What's the purpose of the 'Info Type' in my leave data?,"Info Type' categorizes or classifies your data, offering a clearer understanding and organization of your leave records."
+How can I credit leaves to an employee?,Utilize the 'Leave Credit Imp-Exp' feature to either import bulk leave credits or make manual adjustments.
+Can I see an overview of all imported files at once?,"Yes, navigate to 'View Import History' to get a consolidated view of all your past imports."
+Is there a way to understand how the fields in my source file correspond to the fields in the HRMantra?,"Yes, the 'Mapping' feature visually demonstrates how data fields from the source relate to target fields in the HRMantra."
+How do I know if my import was successful?,"After importing, check the 'Imported Date' and 'Imported File' sections. A recent timestamp and file name indicate a successful import."
+Can I drag and drop multiple files at once for importing?,"While HRMantra supports drag and drop functionality, you should refer to the tool's documentation or 'Page Info Type' to see if bulk uploads are supported."
+What should I do if I encounter an error during import?,"Ensure that your file matches the 'Export Template', adheres to the 'Allowed File Extensions', and validate the data. If issues persist, contact your system administrator."
+How can I get a pre-defined format for my export data?,"Click on the 'Export Template' option to download a standard format, aiding in structuring your data for future imports."
+Does 'Validation Is Mandatory' mean I cannot bypass any errors during import?,"Yes, it ensures that you cannot proceed with an import unless the data meets the validation criteria set by HRMantra."
+Can I customize the mapping rules for import?,"Yes, using the 'Add new rule and import' feature, you can define and customize mapping rules as per your requirements."
+How do I identify the employee associated with a particular import record?,The 'Employee Name' field will display the name of the employee linked to a specific leave record or import.
+Can I adjust the leave balances at both the start and end of the year?,"Yes, with 'Leave Opening Bal Imp-Exp' and 'Leave Closing Balance Of The Year' features, you can adjust balances for both timeframes."
+What should I do if I can't see my imported file in the history?,"Ensure you've successfully imported the file. If issues persist, refresh the 'Leave History Imp-Exp' page or contact your system administrator."
+What does "Adjustment Date" refer to?,The "Adjustment Date" refers to the specific date on which any modifications or adjustments were made to an employee's leave balance.
+How do I calculate "Available Leaves (As On Date) (A+B+C)-(E+F)"?,"Available Leaves (As On Date) is calculated by summing up the Carry Forward from the previous period (A), Current Year Entitlement till Date (B), and Manually Adjusted leaves (C) and then deducting Leaves Used (Including Pending Leave) (E) and Leaves Lapsed (In case of validity) (F)."
+Can I manually enter leave data for an employee?,"Yes, using the ""Manual Leave Entry"" feature, you can manually input or adjust leave data for any employee as required."
+How do I view a detailed breakdown of an employee's leave history?,"To view detailed leave history, navigate to ""Leave History"" or click on ""View Leave Balance Details"" for a comprehensive breakdown."
+What is the significance of "Join Date" and "Group Join Date"?,Join Date refers to the date an employee officially started working in the organization. "Group Join Date" pertains to the date an employee joined a specific department or team within the organization.
+How are "Utilized Days" different from "Leave Used (Including Pending Leave) (E)"?,"Utilized Days refer to the total number of leaves an employee has taken, while ""Leave Used (Including Pending Leave) (E)"" includes both approved and pending leave requests."
+Can I view remarks made by the approver for a leave request?,"Yes, you can view any comments or remarks made by the approver in the ""Approver Name & Remarks"" section."
+What does "Leave To Be Lapse At Year End" indicate?,This indicates the number of leaves that will be forfeited or lapsed if not used by the end of the year.
+Is there a way to track leaves that were manually adjusted?,"Yes, any leaves that are manually adjusted can be viewed under ""Manually Adjusted (C)""."
+How do I determine the "Leave Year End"?,"Leave Year End refers to the closing date of the leave year, which is the last day of the calendar or fiscal year, depending on company policy."
+How can I check when a leave was approved?,The "Approved On" feature displays the date on which a leave request was approved by the relevant authority.
+Who approved a specific leave request?,You can find the name of the person who approved a specific leave request under the "Approver Name" feature.
+What does "Credited Date" indicate?,The "Credited Date" refers to the date on which leaves were added or credited to an employee's leave balance.
+How is "Current Year Entitlement Till Date (B)" determined?,This represents the total leave entitlement an employee has accumulated from the beginning of the current year up to the present date.
+What is the meaning of "As on date"?,As on date refers to the specific date on which the leave balance or history is being viewed or reported.
+Can I view details of a specific leave entry?,"Yes, by clicking on the ""View Details"" option, you can access a detailed breakdown of any specific leave entry."
+How do I know if a leave will expire?,"The ""Expiry Date"" feature will show the date on which a particular leave type, like comp off, will expire if not utilized."
+What's the difference between "From Date" and "To Date"?,"From Date indicates the starting day of the leave period, while ""To Date"" signifies the ending day of the leave period."
+How is "Carry Forward (Previous Period) (A)" calculated?,This represents the number of leaves from the previous year or period that an employee is allowed to carry forward to the current period.
+Is there a way to print the leave history?,"Yes, by clicking on the ""Print"" button, you can print out the leave balance and history for record-keeping or reference purposes."
+How does the "Calculate Leave As On Date" feature work?,"This feature allows you to determine an employee's leave balance as of a specific date by factoring in all credits, debits, and adjustments up to that date."
+What is the significance of "Last Working Date"?,The "Last Working Date" refers to the most recent date on which the employee was present at work before taking a leave.
+Can I make adjustments to the leave days after they've been recorded?,"Yes, using the ""Adjustment Days"" feature, you can modify the number of leave days for any particular entry."
+What is "Deduction Type"?,"Deduction Type indicates the method or reason for a leave deduction, such as absence, late coming, or any other specified reason."
+What does "Comp Off Against" mean?,This feature allows you to track compensatory offs that an employee earns against extra working days or overtime.
+How is "Current Year Accumulated Till Date" different from "Current Year Entitlement Till Date (B)"?,"Current Year Accumulated Till Date refers to the total leaves an employee has accumulated over the year, while ""Current Year Entitlement Till Date (B)"" indicates the leaves an employee is entitled to up till the current date."
+Is there a feature to view details about leave abbreviations used?,"Yes, the ""Leave Abbreviation"" feature provides a brief description or legend for all leave type abbreviations used in HRMantra."
+Can I view how many leaves will lapse due to validity constraints?,"Yes, the ""Leaves Lapsed (In case of validity) (F)"" feature shows the number of leaves that will be forfeited if not utilized within a certain validity period."
+What information can be accessed under "Leave Credit Utilization Detail"?,This feature provides a detailed breakdown of how an employee's credited leaves have been utilized throughout the year.
+How can I view or add remarks to a leave entry?,"Remarks can be viewed or added under the ""Remarks"" feature. Additionally, the applicant and approver can provide specific comments under ""Applicant Remarks"" and ""Approver Name & Remarks"" respectively."
+How do I determine the "Final Status" of a leave request?,"Final Status provides the ultimate decision or state of a leave request, indicating whether it's approved, pending, rejected, or any other possible status defined in HRMantra."
+What is the significance of the "Confirm Date"?,"The ""Confirm Date"" indicates the day on which a leave request was either approved or rejected, confirming its final status."
+Can I see the total number of leaves an employee is entitled to in a year?,"Yes, ""Total Leaves In A Year"" showcases the overall leave entitlement for an employee for the entire year."
+How do I understand the "Balance as on date"?,"Balance as on date represents the current leave balance of an employee as of a specific date, taking into account all accrued and utilized leaves up to that date."
+What does "Ref. code & Application Date" mean?,"Ref. code is a unique identifier for a specific leave request, and ""Application Date"" indicates the day the leave request was made."
+Can I determine if an employee worked extra on a certain day?,"Yes, the ""Extra Working On"" feature showcases dates when an employee worked beyond their regular hours or on off-days."
+What is "Leave Credit Entry"?,"This feature allows admins or managers to manually credit leaves to an employee's account, outside of the regular accruals."
+How do I calculate leaves used only up to a certain date?,"By using the ""Calculate Leaves Used As On Date Only"" feature, you can determine the total leaves utilized by an employee up to a specific date."
+What does "Closing Balance (Previous Period)" mean?,"It refers to the leave balance an employee had at the end of the previous year or period, before any new accruals or lapses for the current period."
+How do I access detailed information on a specific leave entry?,"Clicking on ""View Leave Balance Details"" will provide you with a comprehensive breakdown of any specific leave entry, including dates, types, and remarks."
+What does the "Show" feature allow me to do?,"The ""Show"" feature allows you to filter and display specific leave records based on selected criteria, helping to streamline the view and make it easier to locate specific entries."
+How can I identify the type of leave taken by an employee?,"The ""Leave Name"" feature provides the specific name or type of leave taken, such as sick leave, vacation, or personal day."
+Is there a provision to manually adjust an employee's leave balance?,"Yes, the ""Manually Adjusted (C)"" feature lets you make manual corrections or adjustments to an employee's leave balance, which might be necessary due to errors or special circumstances."
+What does "Leave Credit Utilization Detail" provide?,This feature offers a detailed breakdown of how credited leaves have been used or allocated by an employee throughout the year.
+Can I print a detailed report of an employee's leave history?,"Yes, by clicking on the ""Print"" button, you can generate and print a detailed report of an employee's leave balance and history for record-keeping or managerial review."
+How can I view specific details of a particular leave entry?,"By clicking on the ""View Details"" option, you can access a comprehensive breakdown of a particular leave entry, including dates, remarks, and status."
+What is the purpose of "Leave Abbreviation"?,"Leave Abbreviation provides short codes or symbols representing different leave types, making it easier to quickly identify and categorize them in records."
+How can I add comments or feedback on a leave request?,"Both applicants and approvers can add specific comments or feedback under the ""Applicant Remarks"" and ""Approver Name & Remarks"" sections, respectively."
+What does "Deduction Type" indicate?,"Deduction Type specifies the reason for a reduction in leave balance, whether it's due to utilization, an absence, or another specified reason."
+Can I see if an employee worked extra and earned compensatory offs?,"Yes, the ""Comp Off Against"" feature lets you track the days when an employee worked extra and earned compensatory offs."
+What does "Available Leaves (As On Date)" mean?,This represents the number of leaves you have available as of a specific date.
+How is "From Date" used in the leave process?,From Date denotes the starting day of your leave period.
+What information is provided in "Generate data as per Form M [Rule(4)]"?,"This feature generates data according to the specifications in Form M, as governed by Rule(4) of the leave regulations."
+How do I select a "Leave"?,You can select a leave type from the available options listed in the dropdown.
+What are "Leave Days"?,This indicates the number of days you are planning to take off or have taken off.
+How is "Total Leaves In A Year" calculated?,This displays the total number of leaves an employee is entitled to in a calendar year.
+What if I get the message "Please select at least one leave"?,This means you haven't selected any leave type and need to choose at least one before proceeding.
+What does "There is no running process to stop." indicate?,This message is displayed when there's no ongoing leave processing activity that can be halted.
+How is "Opening Balance" determined?,This represents the initial balance of leaves you had at the start of the period or year.
+Why is the "As on date" feature important?,It provides a reference date to check your leave balance or any other date-specific information.
+What is "Leave Lapsed"?,This represents the number of leaves that were not utilized and have expired by the end of the year or period.
+How do I use the "To Date" feature?,To Date denotes the ending day of your leave period.
+How does "Leave Process" work?,This is the overall mechanism through which leave requests are processed and approved.
+Why is "Validation Is Mandatory"?,This means that you need to ensure all necessary fields are correctly filled before submitting the leave request.
+What does "Process Balance" indicate?,This shows the remaining leave balance after processing the latest leave request.
+What does "Calculate leave used up to the above selected date only" mean?,"It ensures that HRMantra calculates leave only up to a specific date you've chosen, ignoring subsequent dates."
+How is "Entitlement till date" determined?,This shows the total leave days you're entitled to up to the current date.
+Where can I see my "Leave Balance"?,The "Leave Balance" feature displays the number of leaves you currently have remaining.
+What does the "Stop" button do?,It allows users to halt any ongoing leave processing activity.
+How does "Carry Forwarded" work?,This represents the number of leaves from the previous year or period that have been carried forward to the current period.
+What is "Leave Name"?,"This refers to the type or category of leave, e.g., sick leave, casual leave, etc."
+Where do I add "Remarks"?,You can add any additional comments or information about your leave in the "Remarks" section.
+I received "Please define leave in leave master". What does it mean?,This message appears when a leave type isn't defined in HRMantra. Ensure that all leave types are correctly set up in the leave master.
+How is "Balance as on date" different from "Available Leaves (As On Date)"?,"Balance as on date shows your leave balance on a specific date, whereas ""Available Leaves (As On Date)"" displays leaves you can avail as of a given date."
+How is "Data as per Form M [Rule(4)]" different from "Generate data as per Form M [Rule(4)]"?,"The former displays the data, while the latter is an action button to generate the data based on Form M specifications."
+What is "Manually Adjusted"?,This feature allows HR or admins to manually adjust the leave balance in special circumstances.
+What does "Closing Balance" represent?,This indicates the number of leaves you have remaining at the end of a period or year.
+How is "Leave Used" calculated?,It denotes the total leaves availed by an employee during a specified period.
+How can I track my "Leave Used" over the year?,Leave Used is an accumulation of all the leaves you've availed during the year. It can be tracked through HRMantra's reporting and analytics features.
+What's the difference between "Opening Balance" and "Closing Balance"?,"Opening Balance is the number of leaves you start with at the beginning of a period, while ""Closing Balance"" is what remains at the end after all leaves taken and accrued are considered."
+Is "Carry Forwarded" automatically calculated?,"Yes, ""Carry Forwarded"" leaves are auto-calculated based on unused leaves from the previous period and the policies set by your organization."
+How do I know the limit for "Carry Forwarded" leaves?,The limit for "Carry Forwarded" leaves is defined by your organization's leave policy. You can consult the HR department or refer to the policy document in HRMantra.
+Why do I need to provide "Remarks" when applying for a leave?,"While ""Remarks"" might be optional, they offer an opportunity to give additional context or reasons for your leave, which can be helpful for approval processes."
+Can I edit the "Leave Name" once it's defined in HRMantra?,Only administrators or HR personnel can modify the "Leave Name" once it's been defined in the leave master.
+I made an error in "Manually Adjusted" leaves. How can I rectify it?,"Any manual adjustments should be carefully done. If an error occurs, consult with your HR or system administrator to make necessary corrections."
+Can "Leave Lapsed" be reclaimed or used later?,"Leave Lapsed means those leaves are no longer available for use. However, specific policies may allow exceptions based on the organization's discretion."
+What happens if I don't use all my leaves by year-end?,"Depending on your organization's leave policy, unused leaves might either lapse, get carried forward to the next year, or a combination of both."
+How frequently is the "Leave Process" page updated?,The "Leave Process" page is updated in real-time or as soon as any transaction related to leave occurs.
+Why am I unable to select certain "Leave Names" from the dropdown?,Some leaves might have prerequisites or may only become available after a certain period of employment. Ensure you meet all criteria for that specific leave type.
+What is the significance of "Balance as on date"?,"Balance as on date provides you a snapshot of your leave balance on a particular day, helping you plan leaves accordingly without affecting future leave plans."
+How do I interpret the "Data as per Form M [Rule(4)]"?,This data adheres to Form M specifications as mandated by Rule(4). It's essential to understand the guidelines associated with Form M to interpret the data accurately.
+What action should I take when I see "Validation Is Mandatory"?,"Ensure all required fields are filled out correctly. Missing or incorrect information will prevent leave processing, so it's crucial to validate all entries."
+How does the "Stop" function work in the leave process?,The "Stop" function allows you to halt any ongoing leave calculation or processing temporarily. It's useful if you detect an error or need to make adjustments.
+Can I adjust leaves that are "Manually Adjusted"?,"Yes, but  , this requires specific permissions or roles like HR or system administrator. Always ensure that the reason for adjustment is documented for transparency."
+Why do I need to "Please define leave in leave master"?,This message indicates that HRMantra requires certain leave types to be predefined in the leave master. It ensures standardization and consistency in processing leave requests.
+How do "Entitlement till date" and "Leave Balance" differ?,"Entitlement till date represents the total leave you've earned or accumulated up to a specific date, while ""Leave Balance"" displays your remaining leaves after considering those availed."
+How is "Closing Balance" determined?,"Closing Balance is the resultant leave count at the end of a period after considering all taken leaves, accrued leaves, lapsed leaves, and any other adjustments."
+How does HRMantra handle discrepancies in "Leave Used" and actual leaves taken?,HRMantra relies on accurate data input. Any discrepancies should be reported to HR or HRMantra administrator for correction. Regular audits can also help ensure data accuracy.
+Can I apply for a leave that exceeds my "Leave Balance"?,"While you can apply, approval depends on your organization's leave policy. Some organizations may allow negative balances, but it could lead to deductions or adjustments in future leave accruals. Always consult with HR before taking such actions."
+How does "Carry Forwarded" impact my "Opening Balance" for the next year?,"The ""Carry Forwarded"" leaves from the current year are added to your ""Opening Balance"" for the next year, subject to the maximum carry-forward limit set by your organization's leave policy. It allows employees to benefit from unused leaves."
+What does the "Entry from Manual page" feature do?,"The ""Entry from Manual page"" feature allows users to input leave details manually, providing greater flexibility for unique or special cases."
+How do I use the "Leave Days To" feature?,Leave Days To is used to specify the end date of the leave period you are searching for. Just select or input the desired date.
+What's the difference between "No" and "Yes" options?,No and "Yes" are options you can choose based on specific criteria in the leave search. The exact context can vary based on where and when these options are used.
+How do I set the "Application date"?,The "Application date" feature allows you to input or select the date on which the leave application was made.
+How does the "Select All" feature work?,Select All lets you choose all the records displayed on the current page. It's a shortcut to avoid selecting records individually.
+What does "As Per The Weekdays" mean?,"As Per The Weekdays ensures that the leave calculation only considers regular working days, excluding weekends or other non-working days."
+How can I "Get Leave Adjustment Record"?,"Click on the ""Get Leave Adjustment Record"" button to retrieve records of any adjustments made to the leave, such as compensatory offs or corrections."
+What's the purpose of "Leave Days From"?,Leave Days From lets you specify the start date of the leave period you're searching for.
+What does "Pending With" indicate?,Pending With shows the name or designation of the person with whom the leave application is currently pending approval.
+How do I use the "Leave Search Engine"?,The "Leave Search Engine" is the main search tool. Input your criteria and hit search to retrieve relevant leave records.
+What's the "Download Excel" feature for?,Download Excel lets you export the displayed leave records into an Excel file for offline access or further analysis.
+What can I find under "See More"?,See More provides additional details or context about a particular record or field. It's useful when the initial display has limited information.
+Why am I seeing "Validation Is Mandatory"?,This message indicates that certain fields are mandatory and must be filled out or selected before proceeding.
+Who is the "Applicant"?,The "Applicant" field displays the name of the employee who has applied for the leave.
+How do I use "Filter Criteria"?,"Filter Criteria lets you refine your search based on specific parameters, ensuring that the results are more aligned with what you're looking for."
+Why am I prompted with "Please select leave to date"?,This prompt appears when the "Leave Days To" field is left empty but is required for the current search or action.
+What's the "Display Criteria"?,Display Criteria allows you to select which columns or fields you want displayed in the results.
+Why am I prompted with "Please select leave from date"?,This prompt appears when the "Leave Days From" field is left empty but is required for the current search or action.
+Why am I seeing "Please select at least one leave"?,This prompt indicates that you need to select at least one leave record from the displayed list before proceeding with a particular action.
+How do I set the "Leave Application Criteria"?,Leave Application Criteria is a set of fields or options you need to fill out or select to refine your leave search.
+What is "Leave From Date"?,Leave From Date is the starting date of the leave period in question.
+What is meant by "Leave Remarks Like"?,Leave Remarks Like is a search feature that lets you find leave records based on specific keywords or phrases in the leave remarks or notes.
+How is "Leave To Date" different from "Leave Days To"?,"Leave To Date is the end date of the leave period, while ""Leave Days To"" might refer to the total number of days till the end date from the start date."
+What is "Other Criteria"?,"Other Criteria encompasses any additional filters or fields not covered under the main search criteria, allowing for a more refined search."
+How do I use the "Show Leaves Applied On" feature?,"This feature lets you display leaves based on the application date, helping you see when an employee applied for leave."
+What does "Total Records" display?,"Total Records shows the total number of leave records that match your search criteria, whether they're displayed on the current page or across multiple pages."
+How can I sort my search results?,Use the "Display Criteria" to select the desired order of display. Certain columns may also have clickable headers for sorting purposes.
+Can I see the history of modifications made to a leave application?,"Yes, by using the ""Get Leave Adjustment Record"" feature, you can view any adjustments or modifications made to a particular leave application."
+How accurate is the "Leave Search Engine"?,"The ""Leave Search Engine"" is highly accurate, pulling from the database based on the criteria you've set. Ensure your filter criteria is set appropriately for best results."
+Is there a limit to the number of leave records I can download using "Download Excel"?,"The download limit might depend on system settings or configurations. , all displayed results can be exported. Check with system admin for any restrictions."
+Can I get a brief overview of a specific leave application?,"Yes, by clicking on ""See More"" next to a specific leave entry, you can get a more detailed view or overview of that application."
+What should I do if a mandatory field is missed during the leave application?,"If ""Validation Is Mandatory"" appears, review the form and fill in all mandatory fields to proceed."
+Can I search for leaves of a specific applicant?,"Yes, use the ""Applicant"" field in the ""Filter Criteria"" to specify the employee's name or ID you want to search for."
+How can I customize the fields that appear in my search results?,Use the "Display Criteria" option to select or deselect fields based on your preference. This adjusts the columns displayed in your search results.
+Can I modify the date range of a leave after it has been applied?,"Depending on user privileges, you may or may not be able to adjust dates. If changes are needed, use the ""Leave From Date"" and ""Leave To Date"" fields or contact HR."
+How do I interpret the remarks on a leave application?,Use the "Leave Remarks Like" field to search and review remarks. These   provide additional context or reasons for the leave application.
+Can I perform a multi-criteria search?,"Yes, you can use multiple fields in the ""Filter Criteria"", ""Other Criteria"", and ""Leave Application Criteria"" to refine your search to specific needs."
+How do I see leaves applied for in the past month?,Set the "Leave From Date" to the start of the past month and "Leave To Date" to the end of the past month in the search criteria.
+What should I do if I face issues with the "Leave Search Engine"?,"Check if all mandatory fields are filled. If issues persist, contact your system administrator or the support team for assistance."
+Is there a way to see the total number of leave days applied for within a given period?,The difference between "Leave From Date" and "Leave To Date" gives the duration. "Total Records" can also give insights into the number of leave applications.
+Can I save my search criteria for future use?,"Depending on system features, you may be able to save search criteria as templates or presets. Check with the software documentation or support for this functionality."
+Is it possible to bulk approve leave applications?,"Use the ""Select All"" feature to select multiple applications, then proceed with bulk actions as per software functionality and user privileges."
+How do I know if a leave application is still pending or has been approved?,"Look for the status of the leave application, or use the ""Pending With"" feature to see where the application is currently in the approval process."
+Can I search for leave applications based on remarks or notes?,"Yes, use the ""Leave Remarks Like"" field in the search criteria to find leave applications based on specific keywords or notes."
+Can I view a summary of all leave applications for a specific period?,"Using the ""Leave From Date"" and ""Leave To Date"" criteria, you can view leave applications for any specific period. The ""Total Records"" might give a summary count."
+Is there a way to view leave applications pending with a specific supervisor or manager?,Use the "Pending With" feature and input the supervisor's or manager's name or ID to see applications pending with them.
+How do I export my search results to Excel?,"After setting your search criteria and getting the results, click on the ""Download Excel"" button to export the results to an Excel sheet."
+How often is the "Leave Search Engine" updated?,"The search engine pulls real-time data from the database, so it reflects the latest information each time you conduct a search."
+Can I use the "Leave Search Engine" on mobile devices?,Yes
+How do I view my leaves?,Navigate to the "My Leaves" page. All your leaves will be listed there.
+Can I filter leaves by date?,"Yes, use the date filter option on the ""My Leaves"" page to view leaves within a specific period."
+How do I apply for a leave?,"On the ""My Leaves"" page, click on the ""Apply"" button and fill out the required details."
+Can I edit a leave once applied?,"Yes, select the leave entry and use the ""Edit"" option to make changes."
+How can I delete a leave application?,Select the desired leave entry and click the "Delete" option.
+How do I check the status of my leave application?,The status of each leave is displayed next to the leave entry on the "My Leaves" page.
+Can I see the reason for leave rejection?,"Yes, clicking on the rejected leave will provide details including the reason for rejection."
+How many types of leaves can I apply for?,The types of leaves available are defined in the "Leave Configuration." Check there for details.
+Can I see my leave balance?,"Yes, the ""My Leaves"" page displays your remaining leave balance."
+How is my leave balance calculated?,Leave balance is based on the leave policies set in "Leave Configuration."
+Can I carry forward unused leaves?,This depends on the policies set in the "Leave Configuration." Check there for details.
+How do I know if my leave has been approved?,Approved leaves will have the status "Approved" on the "My Leaves" page.
+Can I apply for half-day leave?,"Yes, select the ""Half-Day"" option when applying for leave on the ""My Leaves"" page."
+How can I view leaves taken in a specific month?,Use the date filter on the "My Leaves" page to view leaves for a specific month.
+Who approves my leaves?,"The approval authority is set in the ""Leave Configuration.""   , it's your reporting manager."
+Can I attach documents to my leave application?,"Yes, there's an option to attach relevant documents when applying for leave."
+How soon will my leave be approved?,Approval times vary. Check with your reporting manager or HR for specifics.
+Can I apply for leave in advance?,"Yes, you can apply for leaves for future dates."
+How many leaves can I apply for at once?,The maximum number of leaves you can apply for is based on your leave balance and policies set in "Leave Configuration."
+Is there a grace period for applying for leaves?,"Grace periods, if any, are defined in the ""Leave Configuration."""
+Can I see a history of all my leaves?,"Yes, the ""My Leaves"" page lists all your past and upcoming leaves."
+Are weekends counted in my leave days?,This depends on the policies set in "Leave Configuration."
+What happens if I fall sick during my leave?,You can modify your leave application and attach a medical certificate for validation.
+Can I split my leave into separate periods?,"Yes, while applying, specify the different periods you wish to take leave."
+How do I know how many leaves I'm entitled to?,Your entitled leaves are displayed as your leave balance on the "My Leaves" page.
+Can I cancel a leave after it's been approved?,"Yes, go to the leave entry and select the ""Cancel"" option."
+What if my leave balance runs out?,"You may not be able to apply for more leaves or may have to apply for unpaid leave, based on ""Leave Configuration"" policies."
+Can I apply for leave during probation?,This depends on the policies set in the "Leave Configuration."
+Is my leave balance updated in real-time?,"Yes, the ""My Leaves"" page reflects your current leave balance."
+Can I apply for more than one type of leave at once?,"Yes, while applying, select multiple leave types if needed."
+What if I have an emergency and need to extend my leave?,Edit your existing leave application and specify the reason for the extension.
+How do I know the start and end date of my leave?,The start and end dates are displayed next to each leave entry on the "My Leaves" page.
+Is there a maximum limit for consecutive leaves?,This depends on the policies set in the "Leave Configuration."
+Can I view leaves taken by my team members?,", only managers or HR can view team members' leaves. Check your user permissions."
+How do I know if my leave coincides with a public holiday?,Public holidays are   marked on the company calendar. Check there before applying.
+Can I apply for leave during a notice period?,This depends on the policies set in the "Leave Configuration."
+How do I know how many leaves I've taken this year?,Use the date filter on the "My Leaves" page to view leaves taken during a specific period.
+Can I convert casual leave to sick leave?,This depends on the policies set in the "Leave Configuration."
+What if I don't use all my leaves?,Unused leaves may be carried forward or lapse based on "Leave Configuration" policies.
+How are leaves calculated for part-time employees?,Leave entitlement for part-time employees is defined in the "Leave Configuration."
+Can I apply for backdated leaves?,This depends on the policies set in the "Leave Configuration."
+How do I view rejected leave applications?,Rejected leaves are marked with the status "Rejected" on the "My Leaves" page.
+Can I reapply for a rejected leave?,"Yes, you can create a new leave application if your previous one was rejected."
+How are leaves calculated for employees who join mid-year?,This is    prorated based on the joining date and policies in the "Leave Configuration."
+Can I apply for leave during training periods?,This depends on the policies set in the "Leave Configuration."
+How do I know if my leave is paid or unpaid?,The type of leave (paid or unpaid) is mentioned when you apply and is based on "Leave Configuration" policies.
+Can I apply for leave on a weekend?,This depends on the policies set in the "Leave Configuration."
+How are leaves managed during company shutdowns?,Company shutdown policies are defined in the "Leave Configuration."
+Can I apply for maternity/paternity leave through "My Leaves"?,"Yes, if maternity/paternity leave is configured in the ""Leave Configuration,"" you can apply through ""My Leaves."""
+Can I check the history of edited or cancelled leaves?,"This feature depends on system settings.   , an audit trail or history is maintained for transparency."
+How do I configure the month for annual leave?,"To configure the month for annual leave, navigate to the ""Month"" feature on the ""Annual Leave"" page and select the desired month from the dropdown menu."
+What is the purpose of the "Purpose List"?,"The ""Purpose List"" allows you to define and categorize different reasons for annual leave, making it easier to track and manage leave requests."
+How do I add a new purpose to the "Purpose List"?,"To add a new purpose, click on the ""Add"" button in the ""Purpose List"" feature and enter the desired purpose name."
+Can I edit a purpose in the "Purpose List"?,"Yes, to edit a purpose, click on the ""Edit"" button next to the desired purpose in the list, make your changes, and save."
+How is the "Annual Leave" feature different from the "Month" feature?,"The ""Annual Leave"" feature allows you to set the number of annual leave days an employee is entitled to, while the ""Month"" feature determines the month in which the leave year begins."
+How do I set the number of annual leave days for an employee?,"Navigate to the ""Annual Leave"" feature, enter the desired number of leave days in the provided field, and save your changes."
+Can I configure annual leave to be accrued monthly?,"Yes, using the ""Month"" feature, you can set the start month for annual leave accrual, allowing employees to accumulate leave on a monthly basis."
+What happens if an employee doesn't use all their annual leave?,"Depending on your company's leave policy, unused annual leave may be carried over to the next year, or it may expire. Please refer to your company's leave policy for specifics."
+Can I delete a purpose from the "Purpose List"?,"Yes, to delete a purpose, click on the ""Delete"" button next to the desired purpose in the list."
+How do I view an employee's remaining annual leave?,Navigate to the "Annual Leave" feature and search for the employee's name. Their remaining annual leave will be displayed in the respective column.
+Can I configure annual leave for part-time employees?,"Yes, the ""Annual Leave"" feature allows you to set leave entitlements based on an employee's employment status, including part-time."
+Is there a limit to the number of purposes I can add to the "Purpose List"?,"No, there's no predefined limit. You can add as many purposes as needed to categorize annual leave reasons."
+Can employees request leave for a purpose not listed in the "Purpose List"?,"Yes, employees can request leave for other reasons, but having predefined purposes helps in better categorizing and managing leave requests."
+How do I reset annual leave entitlements for a new year?,"Navigate to the ""Annual Leave"" feature, select the employees for whom you want to reset entitlements, and use the ""Reset"" option."
+Can I import/export leave configurations?,"Depending on your software's capabilities, there may be features to import or export leave configurations. Please refer to the software documentation for specifics."
+Can I set different annual leave entitlements for different employee grades or levels?,"Yes, using the ""Annual Leave"" feature, you can customize leave entitlements based on employee grades or levels."
+How do I handle leave requests that span across two leave years?,HRMantra will automatically deduct the days from the respective leave years based on the leave start and end dates.
+Is there a way to set maximum consecutive leave days?,"Depending on your software's capabilities, You will be able to set limits on consecutive leave days under the ""Annual Leave"" settings."
+How do I handle public holidays when calculating annual leave?,Public holidays are    not counted as annual leave days. Ensure your leave settings exclude public holidays from the leave count.
+Can I customize the notification settings for leave requests?,"Yes, navigate to the notification settings section of your software to customize how and when notifications for leave requests are sent."
+How do I handle situations where multiple employees request leave for the same period?,"This is    managed based on company policy, priority, or on a first-come-first-serve basis. The software may provide tools to view overlapping leave requests."
+Can I view annual leave trends or patterns for the company?,"Depending on your software's reporting capabilities, you may be able to generate reports to view leave trends over specific periods."
+How do I handle sick leave within the "Annual Leave" page?,The "Annual Leave" page is primarily for managing annual leave. Sick leave might have its own separate configuration page or settings.
+Is there an audit trail for changes made in the "Annual Leave" configurations?,HRMantra software provides audit trails for configuration changes. Check the logs or history section to view changes made.
+Can employees view their leave balance and history?,"Yes, employees    have access to view their own leave balance and history, depending on the permissions set in the software."
+What happens if an employee takes more leave than they are entitled to?,"Over-leave situations are    flagged by HRMantra. The company can then decide on the course of action based on its policy (e.g., unpaid leave)."
+How do I configure carry-over rules for unused leave?,Navigate to the "Annual Leave" settings to configure rules for carrying over unused leave to the next year.
+Is there a way to configure mandatory leave days for all employees?,"Yes, under the ""Annual Leave"" settings, you can set mandatory leave days that apply to all employees."
+How do I backdate leave for an employee?,"Navigate to the ""Annual Leave"" feature, find the employee's record, and adjust the leave dates as needed. Ensure you have the necessary permissions to make such changes."
+Can I set a waiting period before new employees become eligible for annual leave?,"Yes, under the ""Annual Leave"" settings, you can configure a waiting period for new hires before they start accruing leave."
+How do I manage unpaid leave within the "Annual Leave" configurations?,The "Annual Leave" page is for paid leave configurations. Unpaid leave might have its own separate settings or be managed differently.
+Can I configure half-day or hourly leave?,"Depending on your software's capabilities, You will be able to set leave in half-day or hourly increments under the ""Annual Leave"" settings."
+How do I set up leave for employees on probation?,Employees on probation might have different leave entitlements. Navigate to the "Annual Leave" settings to configure leave for this specific employee group.
+Can I set a notification for when an employee's leave balance is low?,"Yes, under the notification settings, you can configure alerts for when an employee's leave balance reaches a certain threshold."
+How do I handle leave encashment?,Leave encashment has its own separate configuration
+Can I view a calendar of all employees' leave?,HRMantra software provides a calendar view where you can see all scheduled leave for employees. Navigate to the relevant section to view this.
+How do I configure leave for shift workers?,Navigate to the "Annual Leave" settings to configure leave based on shifts or working hours. Ensure your settings align with company policy.
+Can I set a minimum notice period for leave requests?,"Yes, under the ""Annual Leave"" settings, you can configure a minimum notice period for submitting leave requests."
+How do I integrate the "Annual Leave" configurations with other modules?,"Depending on your software, there might be integration tools or settings to link the ""Leave"" module with other modules like ""Payroll"" or ""Attendance""."
+Can I set automatic approval for certain leave requests?,"Yes, under the ""Annual Leave"" settings, you can set criteria for leave requests to be automatically approved, such as requests below a certain number of days."
+How do I configure leave for temporary or contract employees?,Navigate to the "Annual Leave" settings to set up leave configurations specifically for temporary or contract employees.
+Can I set different leave entitlements based on years of service?,"Yes, under the ""Annual Leave"" settings, you can configure leave entitlements that scale based on an employee's years of service."
+How do I handle maternity or paternity leave?,Maternity and paternity leave might have separate configurations or be managed under a different section than "Annual Leave". Refer to your software for specifics.
+Is there a way to set blackout dates where no leave can be taken?,"Yes, under the ""Annual Leave"" settings or calendar, you can set specific dates as blackout dates where leave requests are not allowed."
+Can I set a maximum cap for annual leave accumulation?,"Yes, within the ""Annual Leave"" feature, you can specify a maximum limit for annual leave accumulation. Any accrued leave beyond this limit may not be carried over or might be forfeited, based on your settings."
+What do I do if an employee's leave configuration needs exceptions?,Navigate to the "Annual Leave" feature. You can customize and override default settings for specific employees if they require unique configurations or exceptions.
+Can I set different annual leave accrual rates for different employee grades?,"Yes, the ""Annual Leave"" feature allows you to configure leave accrual rates based on employee grades or roles. This ensures flexibility in managing leave policies for different employee groups."
+How can I view historical annual leave data for an employee?,"In the ""Annual Leave"" section, there should be a history or logs feature that lets you view historical annual leave data, including leave taken, accrued, and any modifications."
+Is it possible to set automatic reminders for employees nearing their maximum leave accrual?,"Depending on your software's capabilities, you can set up automatic notifications or reminders for employees who are nearing or have reached their maximum leave accrual limit."
+How do I handle leave encashment within the "Annual Leave" feature?,"If your software supports leave encashment, navigate to the ""Annual Leave"" feature, and there should be an option to process leave encashment based on the number of unused leave days and the employee's salary."
+"Can I integrate the ""Annual Leave"" configuration with other HR modules, such as payroll?","Yes,   , HCM software allows for integration between the ""Leave"" module and other HR modules like payroll. This ensures seamless processing of leave-related payouts or deductions."
+How do I submit a leave request for my team member?,Go to the "My Team Leaves" page and click on the "Submit" button. Fill out the required details and submit.
+What is the "Escalation Remarks" feature?,Escalation Remarks allows managers or team leads to add comments or feedback regarding a particular leave request that needs escalation.
+How can I add remarks to a leave request?,Click on the "Leave Remarks" option next to the relevant leave request and input your comments or feedback.
+What does "Leave Days" indicate?,Leave Days displays the number of days an employee has requested off.
+How can I check the status of a leave request?,The "Status" column on the "My Team Leaves" page will show the current status of each leave request.
+How do I view all the leave requests of my team members?,"Go to the ""My Team Leaves"" page. Here, you'll see a list of all leave requests made by your team members."
+What information does "Leave From Date" provide?,Leave From Date indicates the starting date of the requested leave period.
+Can I know the type of leave a team member has applied for?,"Yes, the ""Leave Name"" column will display the type of leave (e.g., sick leave, vacation, etc.) requested by the team member."
+Where can I see the end date of a team member's leave?,The "Leave To Date" column displays the end date of the requested leave period.
+How do I filter leave requests based on their status?,"Use the ""Select Status"" dropdown to filter leave requests by their status (e.g., approved, pending, rejected)."
+How do I forward a leave request to another manager or team lead?,Click on the "Send To" option next to the relevant leave request and select the person you want to forward it to.
+Can I modify a leave request after submitting it?,"Once a leave request is submitted, it cannot be modified directly. However, you can cancel the request and submit a new one with the required changes."
+How do I know if a leave request requires my attention?,Any leave request that requires your attention will be highlighted or marked with a notification icon on the "My Team Leaves" page.
+Can I add additional remarks to a leave request after its approval or rejection?,"Yes, you can add additional ""Leave Remarks"" or ""Escalation Remarks"" even after the leave request has been processed."
+What do the different "Status" values indicate?,"The ""Status"" can be ""Pending"" (awaiting approval), ""Approved"" (granted), or ""Rejected"" (denied)."
+Can I see the leave balance of my team members?,"While the ""My Team Leaves"" page primarily displays leave requests, the leave balance can be viewed in the detailed profile of each team member or in the leave summary report."
+How do I reject a leave request?,"Click on the respective leave request and select the ""Reject"" option. Optionally, you can add remarks explaining the reason for rejection."
+Can I approve multiple leave requests at once?,"Depending on your software's functionality, You will have a bulk approval feature. If so, select multiple leave requests and choose the ""Bulk Approve"" option."
+How do I know who forwarded a particular leave request to me?,The "Sent By" or "Forwarded By" column (if available) will indicate who forwarded the leave request to you.
+What should I do if I mistakenly approve a leave request?,"Reach out to your HR or admin team to rectify the mistake. Depending on the software, You will also have the option to revert the approval."
+How do I know the reason for a leave request?,Check the "Leave Remarks" section for the reason provided by the team member when submitting the leave request.
+Can I set a maximum limit for leave days?,"Leave limits are    set in the main leave configuration settings. If you have the necessary permissions, you can set or modify leave limits there."
+How do I forward a leave request to someone not on the default list in "Send To"?,"You may need to manually add or search for the person's name in the ""Send To"" option, or check with your HR or admin team for assistance."
+Can I see a history of all actions taken on a leave request?,"Depending on your software's features, there may be a ""History"" or ""Audit Trail"" option that shows all actions and remarks associated with a leave request."
+How do I know if a leave request is escalated?,"Leave requests that are escalated might be highlighted, or they might have a specific status like ""Escalated"" displayed in the ""Status"" column."
+Can I set automatic escalations for leave requests?,Automatic escalations are    set in the main leave configuration settings. Check there or consult your HR or admin team.
+How do I know the total number of leaves taken by a team member in a specific period?,This information might be available in leave summary reports or in the detailed profile of each team member.
+Can I download the list of leave requests from the "My Team Leaves" page?,"Depending on your software's features, there may be an ""Export"" or ""Download"" option on the ""My Team Leaves"" page."
+How do I know if a leave request overlaps with other team members' leaves?,Some software provides a team calendar view where you can visually see if multiple team members have requested leave for the same period.
+Can I set a rule where only a certain number of team members can take leave on the same day?,Such rules are    set in the main leave configuration settings. Check there or consult your HR or admin team.
+How do I search for a specific leave request?,Use the search bar or filters available on the "My Team Leaves" page to find a specific leave request.
+Can I categorize leave requests based on leave types?,"Yes, you can use the ""Leave Name"" filter to categorize or view leave requests based on their type."
+How do I set default approvers for leave requests?,Default approvers are    set in the main leave configuration settings. Check there or consult your HR or admin team.
+Can I see a graphical representation of leave trends in my team?,"Depending on your software, there might be a dashboard or reports section where you can view graphical representations of leave trends."
+How do I know if a leave request has been automatically approved due to a set rule?,"The ""Status"" might show ""Auto-Approved"" or a similar status, and the ""Remarks"" section might have a note indicating the rule based on which it was approved."
+Can I customize the view of the "My Team Leaves" page?,"Depending on the software's flexibility, You will have the option to customize columns, filters, and the overall view of the page."
+How do I set reminders for pending leave requests?,Reminders are    set in the main leave configuration settings. Check there or consult your HR or admin team.
+Can I see leave requests from previous years?,"Yes, use the date filters on the ""My Team Leaves"" page to view leave requests from previous years."
+How do I know if a leave request has been modified after submission?,"Check the ""History"" or ""Audit Trail"" of the leave request to see all actions, including modifications."
+Can I assign a proxy or delegate for approving leave requests in my absence?,Some software allows you to set a proxy or delegate for approvals. Check the settings or consult your HR or admin team.
+How do I cancel an approved leave request?,"Click on the respective leave request and select the ""Cancel"" or ""Revert"" option. Optionally, you can add remarks explaining the reason for cancellation."
+How do I know the impact of a leave request on a project or task?,You may need to refer to your project management tool or consult with the respective project manager to understand the impact.
+Can I integrate the "My Team Leaves" page with other tools or calendars?,"Depending on your software's capabilities, there may be options to integrate with other tools or sync with calendars. Check the settings or consult your IT team."
+How do I set up notifications for leave requests?,Notifications are    set in the main leave configuration settings. Check there or consult your HR or admin team.
+Can I see the holiday list while approving leave requests?,Some software provides a side-by-side view of the holiday list or highlights public holidays in the calendar view on the "My Team Leaves" page.
+How do I differentiate between half-day and full-day leave requests?,"The ""Leave Days"" column might show ""0.5"" for half-day requests and ""1"" for full-day requests. Alternatively, there might be a specific column or tag indicating this."
+Can I set priority levels for leave requests?,Setting priority levels is    done in the main leave configuration settings. Check there or consult your HR or admin team.
+How do I know if a team member has exceeded their leave balance?,This information might be highlighted on the "My Team Leaves" page or available in leave summary reports.
+Can I see a reason for leave rejection?,Check the "Leave Remarks" or "Escalation Remarks" section for the reason provided by the approver for rejecting the leave request.
+How do I contact a team member regarding their leave request?,"Some software provides a direct messaging or email option from the ""My Team Leaves"" page. Alternatively, you can contact the team member using your organization's preferred communication tool."
+How do I use the "Select Purpose" feature?,The "Select Purpose" feature allows you to choose the reason for the leave. Simply click on the dropdown and select the relevant purpose for your leave.
+What are "Legends" in the Leave Calendar?,"Legends provide visual cues for different types of leaves on the calendar, making it easier to understand the leave status at a glance."
+How can I change the "Select Period Name"?,"Use the ""Select Period Name"" dropdown to choose the desired period (e.g., monthly, quarterly) for which you want to view the leave calendar."
+Can I view leaves of specific employees?,"Yes, use the ""Employees"" feature to select and view leaves of specific employees or groups."
+How do I navigate through the "Leave Calendar"?,The "Leave Calendar" displays leaves for the selected period. Use the arrows or date selectors to navigate through different periods.
+Can I apply for leave directly from the "Leave Calendar"?,"No, the ""Leave Calendar"" is primarily for viewing. To apply for leave, please navigate to the ""Apply Leave"" page."
+What do the different colors in the calendar represent?,"The colors represent different leave statuses as defined in the ""Legends"". For example, green might represent ""Approved"" while red might indicate ""Rejected""."
+Can I view past leaves in the "Leave Calendar"?,"Yes, simply navigate to the desired period using the ""Select Period Name"" feature."
+How are weekends displayed in the "Leave Calendar"?,Weekends are    highlighted or marked differently to distinguish them from weekdays. Refer to the "Legends" for specifics.
+How do I view leave details of a specific date?,"Click on the date in the ""Leave Calendar"". If any leave details are available for that date, they will be displayed."
+Can I edit leaves from the "Leave Calendar"?,"No, the ""Leave Calendar"" is for viewing purposes only. To edit leaves, navigate to the ""Manage Leaves"" page."
+How can I see the total number of leaves taken in a month?,"The ""Leave Calendar"" may have a summary section that provides such details. If not, refer to the ""Leave Summary"" page."
+What is the difference between "Pending" and "Approved" in legends?,"Pending means the leave request is awaiting approval, while ""Approved"" means the leave request has been accepted."
+How often is the "Leave Calendar" updated?,The "Leave Calendar" is updated in real-time as leave statuses change.
+Can I export the "Leave Calendar"?,"If there's an export option available, you can use it to export the calendar. If not, please contact HRMantra administrator."
+How do I filter the "Leave Calendar" by department?,Use the "Employees" feature to select specific departments or groups to filter the calendar view.
+Can I see public holidays in the "Leave Calendar"?,"Yes, public holidays are    marked or highlighted in the calendar. Refer to the ""Legends"" for specifics."
+How do I switch to a weekly view in the "Leave Calendar"?,Use the "Select Period Name" dropdown and choose the weekly option.
+Can I view leave balances in the "Leave Calendar"?,"The ""Leave Calendar"" primarily displays leave dates. For leave balances, refer to the ""Leave Summary"" or a similar page."
+Why can't I see some employees in the "Leave Calendar"?,"Ensure you have the necessary permissions to view all employees. If you do, the employees might not have any leave records for the selected period."
+Can I customize the "Legends" in the "Leave Calendar"?,Customizing "Legends"    requires administrative access. Contact your system administrator for more details.
+How do I refresh the "Leave Calendar"?,"There might be a refresh button or option. If not, simply navigating away and returning to the page should refresh the view."
+Can I print the "Leave Calendar"?,"If there's a print option available, you can use it. Otherwise, use your browser's print functionality."
+Why are some dates grayed out in the "Leave Calendar"?,Grayed-out dates might represent past dates or non-working days. Refer to the "Legends" for specifics.
+Can I view leave reasons in the "Leave Calendar"?,"By default, you'll see leave types. For detailed reasons, click on the specific leave date or refer to the ""Leave Details"" page."
+How do I view leaves for the next year?,Use the "Select Period Name" dropdown and navigate to the desired year.
+Can I add notes or comments in the "Leave Calendar"?,"The ""Leave Calendar"" is for viewing. To add notes or comments, navigate to the specific leave application or management page."
+Why is the "Select Purpose" option grayed out?,The "Select Purpose" might be grayed out if you don't have the required permissions or if it's not applicable for the selected view.
+How can I view the entire year in the "Leave Calendar"?,Use the "Select Period Name" dropdown and choose the yearly option.
+How do I zoom in on the "Leave Calendar"?,"If a zoom feature is available, use it. Otherwise, use your browser's zoom functionality."
+Can I see half-day leaves in the "Leave Calendar"?,"Yes, half-day leaves are    represented differently. Refer to the ""Legends"" for specifics."
+How do I report an error in the "Leave Calendar"?,Use the "Help" or "Feedback" option in the HCM software or contact your system administrator.
+Can I view leaves of contractors or temporary staff?,Yes
+Why is the "Leave Calendar" loading slowly?,"Ensure you have a stable internet connection. If the issue persists, contact your system administrator."
+Can I see overtime details in the "Leave Calendar"?,"The ""Leave Calendar"" is primarily for leaves. For overtime details, navigate to the ""Overtime"" or a similar page."
+How do I hide certain leave types from the "Leave Calendar"?,This requires administrative access. Contact your system administrator for customization options.
+Can I view the "Leave Calendar" on mobile?,"If your HCM software has a mobile-responsive design or a mobile app, you can view it on mobile devices."
+Why can't I see my own leaves in the "Leave Calendar"?,"Ensure you've selected the right period and filters. If the issue persists, contact HR or HRMantra administrator."
+How can I get a legend description?,Hover over the legend or click on it. A tooltip or description might appear.
+Can I change the start day of the week in the "Leave Calendar"?,This requires administrative access. Contact your system administrator for customization options.
+Why are some leaves marked with an exclamation mark?,This might indicate exceptions or issues with the leave. Refer to the "Legends" or click on the leave for details.
+How do I change the view to a list instead of a calendar?,"If a list view option is available, you can use it. Otherwise, check with HRMantra administrator for alternative views."
+Can I see who approved a particular leave in the "Leave Calendar"?,"By default, the approver's details might not be displayed. Click on the specific leave or navigate to the ""Leave Details"" page for such information."
+How do I know if a leave has been modified?,Modified leaves might be marked differently. Refer to the "Legends" or click on the leave for a detailed history.
+Can I see rejected leaves in the "Leave Calendar"?,"Yes, rejected leaves should be displayed and can be identified using the ""Legends""."
+How do I search for a specific employee's leaves?,Use the "Employees" feature and search for the employee's name or ID to filter their leaves.
+Why can't I see future leaves in the "Leave Calendar"?,"Ensure you've selected the right period. If you're still facing issues, it might be a restriction set by HRMantra administrator."
+Can I customize the "Leave Calendar" view for my department?,Customizing views    requires administrative access. Contact your system administrator for more details.
+What is the purpose of the "Leave Credit" page?,"The ""Leave Credit"" page allows users to credit leave days to employees, providing a detailed workflow for approval."
+How do I use the "Leave Name" feature?,Leave Name refers to the type of leave being credited. Select the appropriate name from the dropdown before proceeding.
+What does "Leave Credit" indicate?,Leave Credit indicates the number of days being credited to an employee's leave balance.
+How do I submit the leave credit details?,"After filling in the necessary details, click on the ""Submit"" button to initiate the leave credit process."
+Can I add any notes or comments while crediting leave?,"Yes, use the ""Remark"" field to add any notes or comments relevant to the leave credit."
+What is the purpose of "Escalation Remarks"?,Escalation Remarks are used to provide additional information or reasons when escalating a leave credit request.
+How is "Credited Days" different from "Leave Credit"?,"Credited Days displays the total number of days credited to an employee, while ""Leave Credit"" is the current entry."
+What does "Application date" signify?,Application date indicates the date on which the leave credit was applied or requested.
+Who should I select in the "Send To" option?,"In the ""Send To"" option, select the appropriate personnel or department responsible for approving or processing the request."
+Can I edit the "Leave Name" after submitting?,"No, once submitted, the ""Leave Name"" cannot be edited. Any changes require a new entry."
+How do I know if my leave credit request was successful?,"After submission, you'll receive a confirmation notification. Additionally, you can check the status on the dashboard."
+Can I credit leave for multiple employees at once?,"HRMantra is designed for individual entries. For bulk credits, please refer to the bulk leave credit feature."
+What should I do if I made an error in the "Leave Credit"?,"If an error is made, please cancel the current request and create a new leave credit entry with the correct details."
+How can I view previous leave credit entries?,Navigate to the leave credit history or logs section to view past entries and their statuses.
+Can I add multiple remarks for a single leave credit entry?,"HRMantra allows one ""Remark"" per entry. For additional notes, use the ""Escalation Remarks"" section."
+What happens if I forget to click "Submit" after entering details?,The leave credit details won't be saved or processed until "Submit" is clicked. Always ensure to submit after entry.
+Can I cancel a leave credit request after submission?,"Yes, but this depends on the workflow set up in your HCM software. Refer to the cancellation procedure in the user guide."
+How secure is the data entered in the "Leave Credit" page?,The HCM software employs robust security measures to ensure that all data is securely stored and accessed.
+Can I delegate leave credit responsibilities to another team member?,"Yes, depending on your role and permissions. Please refer to the role management section for more details."
+How will the employee know about the credited leave?,"Once leave is credited, a notification or email is sent to the concerned employee with the credited details."
+What is the maximum limit for "Leave Credit"?,The maximum limit varies based on the leave policy. Please refer to your organization's leave policy for specifics.
+Can I see a history of all my "Escalation Remarks"?,"Yes, all escalation remarks are logged and can be viewed in the leave credit history or logs section."
+Are there any mandatory fields on the "Leave Credit" page?,"Yes, fields like ""Leave Name"", ""Leave Credit"", and ""Application date"" are    mandatory."
+What happens if I don't fill in the "Remark" field?,"The ""Remark"" field is optional, but it's recommended to provide additional information if relevant."
+How does the "Send To" feature work?,Send To directs the leave credit request to the selected personnel or department for further processing or approval.
+Can I track the status of my leave credit request?,"Yes, the status can be viewed in the leave credit dashboard or history section."
+Is there a deadline for crediting leaves?,This depends on your organization's leave policy. Please refer to the policy for any deadlines or restrictions.
+Can I credit half-days using the "Leave Credit" feature?,"Yes, if HRMantra supports fractional leave credits, you can credit half-days or other fractions."
+What should I do if I face an error on the "Leave Credit" page?,Report the error to your IT or system administrator for resolution.
+Is there a limit to how many times I can use the "Leave Credit" feature in a day?,"There's    no daily limit, but excessive entries might be flagged for review."
+How do I know who approved my leave credit request?,The approval details are logged and can be viewed in the leave credit history or logs section.
+Can I print the details from the "Leave Credit" page?,"Depending on the HCM software features, there may be a print or export option available."
+What should I include in the "Escalation Remarks"?,Include any additional information or reasons that justify the need for escalation or urgent processing.
+Can I credit leave for a future date?,"Yes, you can specify a future ""Application date"" while crediting leave."
+How do I rectify a rejected leave credit request?,"Review the rejection reason, make necessary corrections, and resubmit the leave credit request."
+Can multiple users access the "Leave Credit" page simultaneously?,"Yes, the HCM software is designed to support multiple users accessing various modules concurrently."
+How is the "Application date" different from the actual credited date?,Application date is when the request was made. The actual credited date is when the leave gets added to the employee's balance.
+Can I attach documents in the "Leave Credit" page?,"This depends on the HCM software features. If supported, there might be an option to attach relevant documents."
+Is there an audit trail for all actions on the "Leave Credit" page?,"Yes, HRMantra software maintains an audit trail for transparency and tracking purposes."
+How do I know the balance leave after crediting?,The updated leave balance is    displayed in the employee's leave dashboard or profile.
+Can I set auto-approval for certain leave credit requests?,This depends on the HCM software configuration. Yesallow auto-approval based on certain criteria.
+Can I set reminders for leave credit deadlines?,"If the software supports it, you can set reminders or alerts for specific actions or deadlines."
+What happens if the person in the "Send To" option is unavailable?,HRMantra has a backup approver or an escalation mechanism in place for such scenarios.
+Are there any notifications for pending leave credit approvals?,"Yes, approvers    receive notifications or reminders for pending actions."
+Can I schedule a recurring leave credit for an employee?,This depends on the software's features. Yesmight support scheduled or recurring leave credits.
+Are there any reports I can generate from the "Leave Credit" page?,"Depending on the HCM software, you can generate various reports related to leave credit history, approvals, and more."
+Can I export the data from the "Leave Credit" page?,"If the software supports it, there might be an option to export the data in formats like CSV, Excel, etc."
+Is there a mobile version of the "Leave Credit" page?,"Most modern HCM software offer mobile-responsive designs or apps, allowing access to features like ""Leave Credit"" on mobile devices."
+Who should I contact for further assistance with the "Leave Credit" page?,"For further assistance, contact your HR department or the HCM software's customer support."
+What is the purpose of the "Leave Reasons Master" page?,The "Leave Reasons Master" page allows administrators to define and manage the various reasons employees might take leave.
+How do I create a new leave reason?,"Navigate to the ""Leave Reasons Master"" page and use the ""Add"" button. Fill in the required fields like ""Reason Name"", ""Preference Order"", etc., and save."
+What is "Leave Name"?,"Leave Name represents the type or category of leave, e.g., ""Sick Leave"", ""Vacation"", etc."
+How is "Preference Order" used?,Preference Order determines the sequence in which leave reasons appear in the list. A lower number means it will appear higher up.
+What does "Is It Active?" signify?,"Is It Active? indicates if a particular leave reason is currently active and can be used by employees. If not active, employees won't see or be able to use it."
+What is meant by "Is it by default?",Is it by default? signifies if the leave reason is one of the default options provided by HRMantra or if it was added by an admin.
+Can I change the "Preference Order" after creating a leave reason?,"Yes, you can edit the ""Preference Order"" to change the sequence of how leave reasons appear."
+How can I deactivate a leave reason?,"To deactivate a leave reason, navigate to the respective reason and toggle off the ""Is It Active?"" switch."
+Can I delete a leave reason?,"While you can deactivate a leave reason, it's recommended not to delete it to maintain historical data. However, check your HRMantra's specific features."
+What is "Reason Name"?,Reason Name is the specific reason or cause for which an employee might take a leave. It gives clarity on why leave was taken.
+Can I have two leave reasons with the same "Preference Order"?,"Each leave reason should have a unique ""Preference Order"". If there's a tie, HRMantra might order them based on creation date or another factor."
+How many leave reasons can I create?,This depends on the limitations of your HRMantra. Check with your software provider for exact numbers.
+Why can't I see a leave reason I created?,Ensure that the leave reason is marked as "Active" and check its "Preference Order" to see where it's positioned in the list.
+Can employees see deactivated leave reasons?,"No, deactivated leave reasons will not be visible to employees when they're applying for leave."
+How do I edit a leave reason?,"Navigate to the ""Leave Reasons Master"" page, find the leave reason you want to edit, and click the ""Edit"" option."
+How do I ensure a leave reason is set to "Active"?,You can ensure this by toggling on the "Is It Active?" switch for that specific leave reason.
+How often should I review and update leave reasons?,Reviewing and updating leave reasons annually or whenever there's a significant policy change is a good practice.
+Are changes to leave reasons logged?,Yes
+What happens if I set a leave reason to "Not Active"?,"If set to ""Not Active"", that specific leave reason won't be available for employees to use when applying for leave."
+Can I reorder leave reasons without changing the "Preference Order" one by one?,HRMantra systems allow bulk editing or drag-and-drop functionality. Please refer to HRMantra documentation.
+What should I consider when naming a leave reason?,"Ensure the name is clear, concise, and accurately reflects the reason for leave, making it easy for both admins and employees to understand."
+Is there a character limit for the "Reason Name"?,The character limit might vary based on your HRMantra. Check HRMantra specifications.
+Can I group similar leave reasons together?,"Grouping might not be directly supported, but you can use the ""Preference Order"" to sequence them in a logical order."
+Can employees suggest new leave reasons?,"While HRMantra might not have a direct feature for this, employees can communicate their suggestions to HR or admin for consideration."
+Are there any default leave reasons that cannot be deleted?,"Leave reasons marked as ""By Default"" might be system-generated and may not be deletable. However, always refer to your HRMantra's guidelines."
+Can I see a history of all leaves taken with a specific reason?,"HRMantra provides reports or filters that allow you to view leave data based on specific criteria, including leave reasons."
+Can I customize the fields in the "Leave Reasons Master" page?,"Customizability depends on your HRMantra. Some platforms might allow adding custom fields or modifying existing ones, while others might not."
+Do I need any special permissions to modify leave reasons?,Only administrators or users with specific roles can modify leave reasons. Ensure you have the necessary permissions.
+How do I search for a specific leave reason?,HRMantra offers a search or filter functionality on the "Leave Reasons Master" page. Use this to quickly find specific leave reasons.
+Are there any best practices for managing leave reasons?,"Yes, regularly review and update leave reasons, keep names clear and concise, ensure active reasons are relevant, and always keep historical data rather than deleting."
+Can I assign different leave reasons to specific employee groups?,"You be able to assign leave reasons based on roles, departments, or other employee groupings. Check the software documentation for specifics."
+Is there an option to add descriptions to each leave reason?,HRMantra systems allow adding descriptions or notes to provide further clarity on each leave reason. Refer to your software to see if this feature is available.
+How do I handle obsolete leave reasons?,"Instead of deleting, it's advisable to deactivate obsolete leave reasons to maintain historical data."
+How do employees view the leave reasons when applying?,Employees will see a dropdown or a list of active leave reasons when they apply for a leave in HRMantra.
+What if an employee selects the wrong leave reason?,"Employees or HR can   edit or update the leave application before it's approved, changing it to the correct reason."
+Can I get notifications when a leave reason is added or modified?,Some HRMantra provides notification settings for administrative changes. Explore HRMantra settings or user preferences to enable such notifications.
+How do I handle duplicate leave reasons?,Review and consolidate duplicates. Deactivate or modify the redundant entry to avoid confusion.
+How do I handle employee queries regarding leave reasons?,"It's advisable to have a clear internal communication channel, like an HR helpline or an FAQ section for employees, to address such queries."
+How do I train my team on using the "Leave Reasons Master" page?,"Consider creating a user guide, hosting training sessions, or referring to the software's official documentation and training resources."
+Can I categorize leave reasons?,"While the ""Leave Name"" acts as a broad category, HRMantra software allow further categorization or tagging of leave reasons."
+What's the difference between "Leave Name" and "Reason Name"?,"Leave Name is a broader category (e.g., Sick Leave), while ""Reason Name"" is specific (e.g., Medical Appointment)."
+Do changes to leave reasons impact existing leave records?,"Changes to leave reasons don't alter existing records, but they may affect future applications. However, always verify with your HRMantra."
+Can I restore a previously deleted or deactivated leave reason?,"Deactivated reasons can be reactivated. Deleted reasons, on the other hand, may need to be recreated, unless HRMantra offers a restore feature."
+How do I troubleshoot issues with the "Leave Reasons Master" page?,"Refer to the software documentation, contact your software provider's support, or consult your IT team."
